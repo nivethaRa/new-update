@@ -1,0 +1,25 @@
+<Alloy>
+	<!--<Window  titleImage="images/appicon.png" id="win" title="C">-->
+	<View id="actWin" class="container">
+		<ScrollView id="scroll">
+			<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+			<Label class="createActLbl" />
+			<TextField id="fName" class="loginField" />
+			<TextField id="username" class="loginField" />
+			<TextField id="email" class="loginField" />
+			<TextField id="password" class="loginField" passwordMask="true"/>
+			<Label class="selectLbl" />
+			<View class="heightSize top0 hl">
+				<ImageView id="fstRadio" class="radioBtn top5 left50"onClick="fstRadioCliked" />
+				<Label  class="itemLbl top5 left10 heightSize" text="L('CreateAccountStyleCustomer')"/>
+			</View>
+			<View class="heightSize top0 hl">
+				<ImageView id ="sndRadio"  class="radioBtn top5 left50" onClick="sndRadioCliked" />
+				<Label  class ="itemLbl top5 left10 heightSize" text="L('CreateAccountStyleVendor')"/>
+			</View>
+			<Button id="login" title="L('createAccount')" class="actButton" onClick="createAccoutClicked" />
+			<View id="othersLogin"></View>
+		</ScrollView>
+	</View>
+	<!-- </Window>	-->
+</Alloy>

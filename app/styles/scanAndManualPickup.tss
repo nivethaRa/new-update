@@ -1,0 +1,26 @@
+"#hazeViewContainer":{
+	theme: 'Theme.NoActionBar',
+	backgroundColor: "transparent"
+}
+"#popupContainer":{
+	backgroundColor: '#000',
+	opacity: 0.5,
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
+"#popupBox":{
+	top: 60,
+	height: "70%",
+	backgroundColor: "#fff",
+	borderRadius: 5,
+	borderWidth: 2,
+	left: 10,
+	right: 10,
+	borderColor: "#68c7c7",
+	opacity: 1,
+	zIndex: 1,
+	bottom: 50,
+	bubbleParent: false,
+	touchEnabled: true,
+	layout: "vertical"
+}

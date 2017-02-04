@@ -1,0 +1,16 @@
+<Alloy>
+	<ItemTemplate name="template" id ="itemTemplates">
+		<View id="baseView" bindId="baseView">
+			<ImageView id="editImg" bindId="editImg"/>
+			<View id="titleAndQuantityLabel">
+				<Label id="quantitylbl" bindId="quantitylbl" class="label"/>
+				<Label id="titlelbl" bindId="titlelbl" class="label"/>
+			</View>
+			<Label id="desclbl" bindId="desclbl"/>
+			<Label id="pricelbl" bindId="pricelbl"/>
+			<ImageView id="cancelImg" bindId="cancelImg"/>
+			<Label id="beefLbl" bindId="beefLbl"/>
+			<Label id="beefPricelbl" bindId="beefPricelbl"/>
+		</View>
+	</ItemTemplate>
+</Alloy>

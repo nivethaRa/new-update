@@ -1,0 +1,21 @@
+<Alloy>
+	<View backgroundColor="transparent" >
+		<ScrollView class="mainView">
+			<ImageView id="logo" />
+			<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+			<TextField id="first_name" class="loginField" />
+			<TextField id="last_name" class="loginField" />
+			<TextField id="email" class="loginField" />
+			<TextField id="password" class="loginField" />
+			<TextField id="password_confirmation" class="loginField" />
+			<TextField id="company_name" class="loginField" />
+			<View class="heightSize hl" left="30" top="20" layout="horizontal">
+				<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="false" class="checkBox"/>
+				<Label  class="itemLbl heightSize" left="5" text="L('IamaVendorandwouldliketosellfood')"/>
+			</View>
+			<Button id="sign_up" title="L('sign_up')" class="loginButton" />
+			<Button id="loginLink" title="L('alreadyRegistered')" class="loginButton"/>
+			<Label  id="termsCondition" text="L('TermsandConditions')" onClick="termsConditionClicked"/>
+		</ScrollView>
+	</View>
+</Alloy>

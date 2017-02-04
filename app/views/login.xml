@@ -1,0 +1,26 @@
+<Alloy>
+	<!--<Window title="L('SignIn')" id="windowSignIn" >
+	<LeftNavButton >
+	<Button onClick="closeWindow" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+	</LeftNavButton>-->
+	<View id="mainView">
+		<ScrollView id="scroll">
+			<ImageView class="logoPic" />
+			<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+			<TextField id="email" class="loginField" />
+			<TextField id="password" class="loginField" top="10"/>
+			<Button id="login" title="L('login')" class="bottomButton" onClick="doLogin"/>
+			<View layout="horizontal" height="20" top="20">
+				<View id="divLeft">
+				</View>
+				<Label id="divLabel" text="L('or')" />
+				<View id="divRight" >
+				</View>
+			</View>
+			<View id="othersLogin" top="20">
+			</View>
+			<Button id="register" title="L('notRegisteredMessage')" top="20" onClick="doRegister" />
+		</ScrollView>
+	</View>
+	<!--</Window>-->
+</Alloy>

@@ -1,0 +1,13 @@
+{
+	"id": "tagscomponent",
+	"name": "tagscomponent",
+	"description" : "A tag system  widget",
+	"author": "Lucas Farias",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2016",
+	"license":"MIT",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"3.0",
+	"tags":"tag, tags",
+	"platforms":"android,ios"
+}

@@ -1,0 +1,164 @@
+<Alloy>
+  <!--<TabGroup module="tabs" id="tabConsumer">
+    <ActionBar platform="android"></ActionBar>
+    <Menu platform="android"></Menu>
+    <Tab module="tabs" id="tab_a" title="L('Search')" icon="images/tabicons/search.png" activeIcon="images/tabicons/search_fill.png">
+      <Window module="tabs" id="tab_search" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require  id="tab_a_view" src="/consumer/searchPref"></Require>
+      </Window> 
+    </Tab> 
+    <Tab module="tabs" id="tab_b" title="L('BottomBarVendorList')" icon="images/tabicons/list.png" activeIcon="images/tabicons/list_fill.png">
+      <Window module="tabs" id="tab_vender" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/vendorList" ></Require>
+      </Window>
+    </Tab>
+    <Tab module="tabs" id="tab_c" title="L('BottomBarLoyalty')" icon="images/tabicons/loyality.png" activeIcon="images/tabicons/loyality_fill.png">
+      <Window module="tabs" id="tab_loyalty" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/loyaltyReview" ></Require>
+      </Window>
+    </Tab> 
+    <Tab module="tabs" id="tab_d" title="Specials" icon="images/tabicons/special_menu.png" activeIcon="images/tabicons/special_menu_fill.png">
+      <Window module="tabs" id="tab_favorites" title="Specials" >
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/dailySpecial" ></Require>
+      </Window>
+  </Tab>
+    <Tab module="tabs" id="tab_e" title="L('Orders')" icon="images/tabicons/order.png" activeIcon="images/tabicons/order_fill.png">
+      <Window module="tabs" id="tab_orders" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/order" ></Require>
+      </Window>
+    </Tab>
+  </TabGroup> 
+  <TabGroup module="tabs" id="tabVendor">
+    <ActionBar platform="android"></ActionBar>
+    <Menu platform="android"></Menu>
+    <Tab module="tabs" id="tabv_a" title="Check In" icon="images/tabicons/checkin.png" activeIcon="images/tabicons/checkin_fill.png">
+      <Window module="tabs" id="tab_checkIn" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require  id="tab_a_view" src="/foodtruck/checkins/checkin_first"></Require>
+      </Window> 
+    </Tab> 
+    <Tab module="tabs" id="tabv_b" title="Specials" icon="images/tabicons/special_menu.png" activeIcon="images/tabicons/special_menu_fill.png">
+      <Window module="tabs" id="tab_specialmenu" title="" titleImage="images/appicon.png">
+        <LeftNavButton > 
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/foodtruck/specials" ></Require>
+      </Window>
+    </Tab>
+    <Tab module="tabs" id="tabv_c" title="L('BottomBarLoyalty')" icon="images/tabicons/loyality.png" activeIcon="images/tabicons/loyality_fill.png">
+      <Window module="tabs" id="tab_vloyalty" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/loyaltyReview" ></Require>
+      </Window>
+    </Tab> 
+    <Tab module="tabs" id="tabv_d" title="L('Reports')" icon="images/tabicons/reports.png" activeIcon="images/tabicons/reports_fill.png">
+      <Window module="tabs" id="tab_reports" title="Reports" >
+        <LeftNavButton > 
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/foodtruck/truckReports" ></Require>
+      </Window>
+    </Tab>
+    <Tab module="tabs" id="tabv_e" title="L('OrderManagement')" icon="images/tabicons/order.png" activeIcon="images/tabicons/order_fill.png">
+      <Window module="tabs" id="tab_ordersmgt" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/order" ></Require>
+      </Window>
+    </Tab>
+  </TabGroup> 
+  <Window id="mainWindow" class="mainWindow">
+  	<View id="sidemenu" class="sidemenu">
+  		<View height="80" layout="vertical" ><Label class ="menuHeader" text="Main Menu" /></View> 
+  		<View class="saperatorLight"/>
+  		<View id="options" top="10" layout="vertical" height="180">
+  			<View height="50" layout="horizontal">
+  				<ImageView left="20" image="/images/tabicons/cart.png"></ImageView>
+  				<Label  class ="menuOption" text="Alok Patil" />
+  			</View>
+  			<View class="container" >   
+  				<Label id="Profile"  class ="menuOption" text="Profile" onClick="clickedOption"/>
+  				<Label id="DailySpecial" class ="menuOption" text="L('DailySpecials')" onClick="clickedOption"/>
+  				<Label id="Events" class ="menuOption" text="L('SettingsPushEvents')" onClick="clickedOption"/>
+  				<Label id="MyLoyalty" class ="menuOption" text="L('MyLoyaltyMyLoyalty')" onClick="clickedOption"/>
+  				<Label id="SearchPref" class ="menuOption" text="L('SearchPreferences')" onClick="clickedOption"/>
+  			</View>  
+  		</View>
+  		<View id="loginOption" class="loginHeader"> 
+  			<Label id="Vendor"  top="5" class ="menuOption" text="Go to Vendor" onClick="clickedOption"/>
+  			<Label id="SignIn"  top="5" class ="menuOption" text="L('SignIn')" onClick="clickedOption"/>
+  			<Label id="CAccount" top="5" class ="menuOption" text="L('CreateAccount')" onClick="clickedOption"/>
+  		</View>
+  	</View>
+  	<View id="sidemenuVendor" class="sidemenu">
+  		<View height="80" layout="horizontal" >
+  			<ImageView left="20" image="/images/tabicons/cart.png"></ImageView>
+  			<Label class ="menuHeader" text="Paco's Tacaos" /></View> 
+  		<View class="saperatorLight"/>
+  		<View id="options" top="10" layout="vertical" height="180">
+  			<View class="container" >   
+  				<Label id="CheckIn"  class ="menuOption" text="L('Check_In')" onClick="clickedOption"/>
+  				<Label id="DailyVSpecial" class ="menuOption" text="L('DailySpecials')" onClick="clickedOption"/>
+  				<Label id="MenuAvailable" class ="menuOption" text="L('MenuAvailability')" onClick="clickedOption"/>
+  				<Label id="Report" class ="menuOption" text="Reporting" onClick="clickedOption"/>
+  				<Label id="Review" class ="menuOption" text="L('Reviews')" onClick="clickedOption"/>
+  			</View>  
+  		</View>
+  		<View id="loginOption" class="loginHeader"> 
+  			<Label id="Consumer"  top="5" class ="menuOption" text="Go to Consumer" onClick="clickedOption"/>
+  			<Label id="SignIn"  top="5" class ="menuOption" text="L('SignIn')" onClick="clickedOption"/>
+  			<Label id="CAccount" top="5"  class ="menuOption" text="L('CreateAccount')" onClick="clickedOption"/>
+  		</View>
+  	</View>
+  </Window>  -->
+</Alloy>

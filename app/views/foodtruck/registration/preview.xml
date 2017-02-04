@@ -1,0 +1,46 @@
+<Alloy>
+	<Window backgroundColor="transparent" >
+	<ScrollView id="vendorListView" class="mainView vl">
+		<Label class="heightSize top5 preViewLbl" text="Preview" />
+		<View class="cl heightSize" >
+			<View id="leftView" >
+				<ImageView class="firstPic" />
+			</View>
+			<View id="rightView">
+				<ImageView id="favImg" onClick="openFavScreen" />
+			</View>
+		</View>
+		<View class="cl heightSize bottom10" >
+			<View id="leftView" >
+				<Label id="titelLbl" class="HBlkLbl" text="Pacos Tacos"/>
+				<Label id="subTitelLbl" class="H2Lbl" text="maxican carn Asada salads"/>
+				<Label id="detailsLbl" class="H2BlkBoldLbl heightSize" text="Home made food tourtles test test tesf test test test tesf" />
+				<Label id="linkLbl" class="H2BoldLbl makeUrl top5" text="www.pacostacosmexeria.com"/>
+			</View>
+			<View id="rightView">
+				<ImageView id="busImg"  />
+			</View>
+		</View>
+		<View class="saperatorLight top10"/>
+		<View class="cl heightSize" >
+			<View id="leftView2">
+				<Label id="hrsLbl" class="H2BlkLbl heightSize top10" text="Typical hourse: M/W/F 11 am - 7 pm T/TH 11 am - 3 pm" />
+				<Label id="locationLbl" class="H2BlkLbl heightSize" text="Typical Location: 10 th and alder(FP)" />
+				<Label id="statusLbl" class="H2BlkLbl heightSize" text="Current Status: open until 7 pm" />
+				<Label id="distanceLbl" class="H2BlkLbl heightSize" text="Current Distance: 0.1 mi" />
+				<Label id="mapItLbl" class="H2BoldLbl makeUrl right5 top5" text="Map It"/>
+			</View>
+			<View id="rightView2">
+				<Label id="ratingLbl" class="H2BlkLbl heightSize top10" text="Rating: 4.5/5" />
+				<Label id="repeatLbl" class="H2BlkLbl heightSize top10" text="repeat customers 32%" />
+				<Label id="reviewsLbl" class="H2BoldLbl makeUrl right5 top5" text="Reviews(19)" />
+			</View>
+		</View>
+		<View class="cl heightSize" >
+			<ImageView id="menuImg" image="/images/pizz.jpeg"/>
+			<Button id="backBtn" onClick="backClicked"/>
+			<Button id="completBtn" onClick="completeClicked"/>
+		</View>
+	</ScrollView>
+	</Window>
+</Alloy>

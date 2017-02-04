@@ -1,0 +1,8 @@
+<Alloy>
+	<!--<Window id="win" title="Favorites">-->
+		<View id="favoritesView" class="container">
+			<View id="topView" top="0" ></View>
+			<TableView id="favoritesTable" />
+		</View>
+	<!--</Window>-->
+</Alloy>

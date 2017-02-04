@@ -1,0 +1,56 @@
+<Alloy>
+	<View id="searchPrefWin" class="mainView">
+		<ScrollView id="scroll">
+			<View id="viewThree" class="vl heightSize top0" >
+				<Label class="createActLbl" />
+				<View class="saperatorLight top5" />
+				<Label  class ="selectLbl heightSize left15" text="Distance"/>
+				<View class="heightSize top0 hl">
+					<Slider id="distanceSlider"/>
+					<Label id="distanceLabel" />
+					<View id="sliderLblView" class="hl heightSize">
+						<Label id="cbLbl0" class="left15" text="Min"/>
+						<Label id="cbLblRight" class="right15" text="Max"/>
+					</View>
+				</View>
+				<Label class ="selectLbl heightSize left15" text="Location"/>
+				<View class="heightSize top0 hl">
+					<ImageView id="fstRadio" class="radioBtn top5 left15" onClick="Radio1Cliked" />
+					<Label  class="itemLbl top5 left10 heightSize" text="Use Current Location"/>
+				</View>
+				<View class="heightSize top0 hl">
+					<ImageView id ="sndRadio" class="radioBtn top5 left15" onClick="Radio2Cliked" />
+					<Label  class ="itemLbl top5 left10 heightSize" text="Search by Postal Code/Address"/>
+				</View>
+				<TextField id="postCode" />
+				<!-- <Label  class ="H2Lbl" text="1234 main st. washington DC 20004 "/> -->
+				<Label  class ="selectLbl heightSize left15" text="Filter"/>
+				<View class="heightSize top0 hl">
+					<ImageView id="f1Radio" isCheck="true" class="radioBtn top5 left15" onClick="RadioBtnCliked" />
+					<Label  class="itemLbl top5 left10 heightSize" text="Open Now (Default)"/>
+				</View>
+				<View class="heightSize top0 hl">
+					<ImageView id ="f2Radio" isCheck="false" class="radioBtn top5 left15" onClick="RadioBtnCliked" />
+					<Label  class ="itemLbl top5 left10 heightSize" text="All Vendors (Open/Closed)"/>
+				</View>
+				<!--<View class="heightSize top0 hl">
+					<ImageView id="f3Radio" isCheck="false" class="radioBtn top5 left15" onClick="RadioBtnCliked" />
+					<Label  class="itemLbl top5 left10 heightSize" text="Favorite Vendors Only"/>
+				</View>-->
+				<!-- <View class="heightSize top0 hl">
+				<ImageView id ="f4Radio" isCheck="false" class="radioBtn top5 left15" onClick="RadioBtnCliked" />
+				<Label  class ="itemLbl top5 left10 heightSize" text="Trending vendors only"/>
+				</View> -->
+				<Label  class ="selectLbl heightSize left15" text="Tags"/>
+				<TextField id="tagsTF" class="tagsField" />
+				<View class="heightSize top10 hl">
+					<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="true" class="checkBox top10 left10" />
+					<Label  class="itemLbl top10 left10 heightSize" text="Save These Search Preferences"/>
+				</View>
+				<View class="height20 top25"/>
+				<Button class="nxtBtn" onClick="searchByLocationClicked"/>
+				<!--<Button class="nxtBtn" onClick="searchByLocationClicked"/>-->
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

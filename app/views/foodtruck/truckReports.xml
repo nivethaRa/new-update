@@ -1,0 +1,22 @@
+<Alloy>
+	<ScrollView class="mainView heightSize">
+		<View id="middleScroll" class="navigator hl" onClick="changeTabs" backgroundColor="#000">
+			<View id="tab1" class="Tabs vl" mid="t1">
+				<Label  class="TabsLbl" text="DAILY"/>
+			</View>
+			<View class="Tabs vl" mid="t2">
+				<Label  class="TabsLbl" text="WEEKLY"/>
+			</View>
+			<View class="Tabs vl" mid="t3">
+				<Label  class="TabsLbl" text="MONTHLY"/>
+			</View>
+			<View class="Tabs vl" mid="t3">
+				<Label  class="TabsLbl" text="OVERALL"/>
+			</View>
+		</View>
+		<View class="cl" height="50"></View>
+		<View class="saperatorLight top5" />
+		<WebView id="lineWeb" />
+		<WebView id="pieWeb" />
+	</ScrollView>
+</Alloy>

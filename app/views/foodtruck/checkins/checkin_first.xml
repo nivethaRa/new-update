@@ -1,0 +1,24 @@
+<Alloy>
+	<View class="container">
+		<ScrollView id="scroll">
+			<View layout="vertical" top="0" bottom="0">
+				<ImageView id="jujoimg"/>
+				<Label id="welcome" text="Welcome" />
+				<Label id="vendorName"/>
+				<Button title="CURRENT LOCATION" class="loginButton left10 right10"/>
+				<View class="heightSize horzCenter" layout="horizontal">
+					<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="false" class="checkBox"/>
+					<Label id="permanentLocation" left="2%" text="This is a fixed location"/>
+				</View>
+				<!--<Button title="SELECT FOOD PARK" class="loginButton left10 right10"/>-->
+				<View id="pickerView" class="foodParkBtn">
+					<!--<Button id="downArrow"/>-->
+				</View>
+				<TextField id="wordTF" top="5"/>
+				<Label id="status" text="Current status"/>
+				<Label text="CLOSED" class="lblcls"/>
+				<!--<Button class="saveBtn" title="SAVE"/>-->
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="vendorListView" class="container">
+		<View id="scrlView" top="0"></View>
+		<View id="mapListView" top="0">
+			<View class="hView">
+				<Label id="mapH" class="maplistH" text="L('ResultsMapMap')" onClick="openMap"/>
+				<View id="baseLineMap" class="baseLine" />
+			</View>
+			<View class="hView">
+				<Label id="listH" class="listH" text="L('ResultsMapList')" onClick="openList"/>
+				<View id="baseLineList" class="baseLine" />
+			</View>
+		</View>
+		<View class="container_new">
+			<View id="mapArea" class="mapArea"></View>
+			<TableView id="vendorListTable" class="tableSapColor" />
+		</View>
+	</View>
+</Alloy>

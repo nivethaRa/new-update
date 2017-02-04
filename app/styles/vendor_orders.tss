@@ -1,0 +1,81 @@
+"#topView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor: "#000",
+	height: "40",
+	layout: "horizontal"
+},
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width: "100%",
+	top: 0,
+	left: 0,
+	bottom: 0,
+	right: 0
+}
+".loyaltyH":{
+	color:Alloy.Globals.navBarColor,
+	width: "90",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight: "Medium"
+	},
+	backgroundColor: "#000",
+	height: "40"
+},
+
+".rewatdsH":{
+	height: "40",
+	width: "90",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight: "Medium"
+	},
+	backgroundColor: "#000",
+	color:Alloy.Globals.navBarColor
+},
+
+".hView":
+{
+	width: "50%",
+	height: "40"
+}
+
+".baseLine":{
+	width: "80",
+	top: 30,
+	height: 2,
+	backgroundColor:Alloy.Globals.navBarColor
+}
+".baseLineMy":{
+	width: "90",
+	top: 30,
+	height: 2,
+	backgroundColor:Alloy.Globals.navBarColor
+}
+"#takeoutTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 55
+},
+
+".addEditImg":{
+	top: 10,
+	image: "/images/add_review.png",
+	height: 40,
+	width: 60
+}
+
+"#deliveryTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}

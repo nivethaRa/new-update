@@ -1,0 +1,94 @@
+"#myCartWin":{
+	theme: 'Theme.NoActionBar'
+}
+"#backListViewIcon": {
+	image: "/images/consumerordering/ic_arrow_back_black_48dp.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	}
+}
+"#scroll": {
+	layout: "vertical",
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: true
+}
+"#amountView":{
+	top: 20,
+	height: 50,
+	borderRadius: 3,
+	width: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	backgroundColor: Alloy.Globals.buttonColor
+}
+"#cardDetailField":{
+	top: 20,
+	borderRadius: 3,
+	borderColor: Alloy.Globals.buttonColor,
+	borderWidth: 1,
+	height: Titanium.UI.SIZE
+}
+
+"#save":{
+	top: 20,
+	height: 50,
+	borderRadius: 3,
+	title: L("save"),
+	width: Titanium.UI.FILL,
+	backgroundColor: Alloy.Globals.buttonColor
+}
+"#editLabel":{
+	right : 0,
+	width:80,
+	//backgroundColor:"red",
+	top:"0",
+	textAlign:"center",
+	borderRadius: 3,
+	height: 20,
+	title: L("Edit"),
+	backgroundColor: Alloy.Globals.buttonColor
+}
+".lbl":{
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#fff"
+}
+".fieldLbl":{
+	color: "#000",
+	left: 0
+}
+"#amountValueLabel":{
+	left: 10,
+	text: "$100"
+}
+".inputField":{
+	top: 5,
+	left: 0,
+	borderColor: "#a1a1a1",
+	borderRadius: 3,
+	borderWidth: 1,
+	width: Titanium.UI.FILL,
+	height: 40,
+	backgroundColor: "#D5D4D4",
+	color: "#fff"
+}
+"#cardNumField":{
+	hintText: L("Entercardnumber"),
+	keyboardType: Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD,
+	maxLength: 19
+}
+"#monthField":{
+	width: "49%"
+}
+"#yearField":{
+	left: "2%",
+	width: "48%"
+}

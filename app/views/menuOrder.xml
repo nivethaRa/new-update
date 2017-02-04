@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id="win" layout="vertical">
+		<RightNavButton >
+			<Button onClick="checkOutNavButtonHandler" backgroundImage="images/checkout.png"></Button>
+		</RightNavButton>
+		<!--<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>-->
+		<View class="navigator" height="55" backgroundColor="#68c7c7">
+			<ImageView id="backListViewIcon" onClick="closeWindow" />
+			<Label id="winTitle" text="L('PacoTacaos')"/>
+			<View id="goToMyOrderView" onClick="goToMyOrder">
+				<Label id="menuItemSelectedCount"/>
+				<View id="cartView">
+					<ImageView id="cartIcon"/>
+					<Label id="cartLabel"/>
+				</View>
+			</View>
+		</View>
+		<View id="menuOrderView" layout="vertical">
+			<View layout="vertical" height="25%">
+				<View height="50">
+					<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+						<Label id="my_order" text="L('MenuOrderMyOrder')"/>
+						<Label id="clickHereLabel"/>
+					</View>
+					<View class="saperatorLight bottom0"/>
+				</View>
+				<ScrollView id="myOrderTable">
+				</ScrollView>
+			</View>
+			<View height="75%" layout="vertical">
+				<View  id="middleView" class="navigator" backgroundColor="#000">
+					<ScrollView id="middleScroll" onClick="categoryClicked"/>
+				</View>
+				<TableView id="tacosTable" class="tableSapColor"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>

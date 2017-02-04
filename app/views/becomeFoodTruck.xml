@@ -1,0 +1,96 @@
+<Alloy>
+	<Window class="container">
+			<View id="backMenuIconView" class="navigator">
+				<ImageView id="backMenuIcon" class="navigatorIcon backMenuIcon" />
+				<Label text="L('requestRoleFoodTruckButton')" class="windowTitle" />
+			</View>
+			<ScrollView id="scroll" class="mainView">
+				<ImageView id="logo" />
+				<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+
+				<Label text="L('foodtruckName')" class="defaultLabel" />
+				<TextField id="foodtruck_name" class="defaultField" />
+				<Label text="L('phone')" class="defaultLabel" />
+				<TextField id="phone" class="defaultField" />
+				<Label text="L('address')" class="defaultLabel" />
+				<TextField id="address" class="defaultField" />
+				<Label text="L('informTypicalHours')" class="defaultLabel" />
+				<View id="hoursPickers">
+					<Label text="L('from')" class="defaultLabel" />
+					<Picker id="typicalHoursOpen" class="hoursPicker">
+						<PickerColumn class="hourPicker" id="hoursOpen">
+							<PickerRow title="--" value="--"/>
+							<PickerRow title="1" value="1"/>
+							<PickerRow title="2" value="2"/>
+							<PickerRow title="3" value="3"/>
+							<PickerRow title="4" value="4"/>
+							<PickerRow title="5" value="5"/>
+							<PickerRow title="6" value="6"/>
+							<PickerRow title="7" value="7"/>
+							<PickerRow title="8" value="8"/>
+							<PickerRow title="9" value="9"/>
+							<PickerRow title="10" value="10"/>
+							<PickerRow title="11" value="11"/>
+							<PickerRow title="12" value="12"/>
+						</PickerColumn>
+					</Picker>
+					<Picker id="typicalHoursOpenAmPm" class="hoursPicker">
+						<PickerColumn class="hourPicker" id="hoursOpenAmPm">
+							<PickerRow title="Am" value="am"/>
+							<PickerRow title="Pm" value="pm"/>
+						</PickerColumn>
+					</Picker>
+					<Label text="L('to')" class="defaultLabel" />
+					<Picker id="typicalHoursClose" class="hoursPicker">
+						<PickerColumn class="hourPicker" id="hoursClose">
+							<PickerRow title="--" value="--"/>
+							<PickerRow title="1" value="1"/>
+							<PickerRow title="2" value="2"/>
+							<PickerRow title="3" value="3"/>
+							<PickerRow title="4" value="4"/>
+							<PickerRow title="5" value="5"/>
+							<PickerRow title="6" value="6"/>
+							<PickerRow title="7" value="7"/>
+							<PickerRow title="8" value="8"/>
+							<PickerRow title="9" value="9"/>
+							<PickerRow title="10" value="10"/>
+							<PickerRow title="11" value="11"/>
+							<PickerRow title="12" value="12"/>
+						</PickerColumn>
+					</Picker>
+					<Picker id="typicalHoursCloseAmPm" class="hoursPicker">
+						<PickerColumn class="hourPicker" id="hoursCloseAmPm">
+							<PickerRow title="Am" value="am"/>
+							<PickerRow title="Pm" value="pm"/>
+						</PickerColumn>
+					</Picker>
+				</View>
+				<Label text="L('pricing')" class="defaultLabel" />
+				<View id="pricingComponents" layout="horizontal">
+					<Slider id="pricingSlider"/>
+	        		<Label id="pricingLabel" />
+        		</View>
+				<Label text="L('applyTags')" class="defaultLabel" />
+				<View id="tagsContainer">
+					<Widget id="tagWidget" src="tagscomponent"/>
+				</View>
+				<Label text="L('whatMakeYouSpecial')" class="defaultLabel" />
+				<TextArea id="description" class="defaultField textarea" />
+				<Label text="L('acceptLoyalties')" class="defaultLabel" />
+				<Switch id="loyaltySwitch" value="false"/>
+				<View id="rewardContainer" layout="vertical">
+					<Label text="L('indicatePrizes')" class="defaultLabel" />
+					<Label text="L('bronzeReward')" class="defaultLabel" />
+					<TextField id="bronzeReward" class="defaultField" />
+					<Label text="L('silverReward')" class="defaultLabel" />
+					<TextField id="silverReward" class="defaultField" />
+					<Label text="L('goldReward')" class="defaultLabel" />
+					<TextField id="goldReward" class="defaultField" />
+				</View>
+			</ScrollView>
+			<View class="bottomNavigator">
+				<View class="bottomNavigatorDivisor"></View>
+				<Button id="submitRequest" title="L('submitRequest')" class="bottomButton" />
+			</View>
+	</Window>
+</Alloy>

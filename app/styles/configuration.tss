@@ -1,0 +1,198 @@
+".container": {
+	layout: "vertical"
+}
+".nxtBtn": {
+	title: L("save"),
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	width: 130,
+	top: 15,
+	bottom: 20,
+	borderRadius: 2
+},
+
+"#orderSlider": {
+	height: Ti.UI.SIZE,
+	width: "98%",
+	right: 15,
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#prepTimeSlider": {
+	height: Ti.UI.SIZE,
+	width: "98%",
+	right: 15,
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#deliverySlider": {
+	height: Ti.UI.SIZE,
+	width: "98%",
+	right: 15,
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#sliderLblView":{
+	left: 15,
+	right: 15,
+	top: 10,
+},
+
+"#cbLbl0":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "25%"
+},
+
+"#cbLblRight":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "25%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+},
+
+"#cbLblCenter":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "25%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+
+".cbLbl":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "20%"
+},
+
+"#distanceLabel": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	width: "30%",
+	right: Alloy.Globals.navigatorIconPadding
+}
+"#rightMin": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+},
+"#centerMin": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+
+".loginField": {
+	hintText: "L(exdollarsetc)",
+	hintTextColor:Alloy.Globals.lightTextColor,
+	top: 10,
+	left: 15,
+	color: "#000",
+	right: 15,
+	width: "90%",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	height: 40,
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+	passwordMask: true
+}
+
+
+"#othersLogin": {
+	top: 20,
+	height: 50,
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.normalTextColor
+}
+
+"#foodPark": {
+	top: 20,
+}
+
+"#register": {
+	top: 30,
+	left: 30,
+	right: 30,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4,
+	color: Alloy.Globals.normalTextColor
+},
+
+".createActLbl":{
+	textAlign: "left",
+	top: 15,
+	left: 15,
+	text: "Configuration",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+
+".selectLbl":{
+	left: 15,
+	top: 0,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.darkTextColor
+},
+
+".selectLbl1":{
+	left: 15,
+	top: 0,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande'
+	},
+	color: Alloy.Globals.darkTextColor
+},
+
+".actButton": {
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	height: Alloy.Globals.defaultButtonHeight,
+	width: "60%",
+	top: 10,
+	borderRadius: Alloy.Globals.textFieldBorderRadius
+},
+

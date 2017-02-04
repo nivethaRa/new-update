@@ -1,0 +1,330 @@
+{
+  "companies":
+[
+  {
+    "id": 1,
+    "companyName": "Paco’s Tacos",
+    "description": "Fresh street food tacos",
+    "avatar": "12345",
+    "email": "Julieg@hotmail.com",
+    "facebook": "www.facebook.com/pacostacos",
+    "featuredDish": "56789",
+    "hours": "11am-8pm",
+    "schedule": "M-F",
+    "foodPark": 1
+  },
+  {
+    "id": 2,
+    "companyName": "Thaitanic",
+    "description": "Authentic Thai",
+    "avatar": "54321",
+    "email": "Bobsmith@hotmail.com",
+    "facebook": "www.facebook.com/thaitanic",
+    "featuredDish": "98765",
+    "hours": "3pm-5pm",
+    "schedule": "TWTF",
+    "foodPark": 2
+  },
+  {
+    "id": 3,
+    "companyName": "Grilla Cheese",
+    "description": "Thickets slabs of grilled cheese on Texas toast",
+    "avatar": "00000",
+     "email": "Cindy@gmail.com",
+    "facebook": "www.facebook.com/grillacheese",
+    "featuredDish": "11111",
+    "hours": "11am-3pm",
+    "schedule": "MTWTFSS",
+    "foodPark": 3
+  }
+],
+
+"sites":
+[
+  {
+    "id": 201,
+    "company": 2,
+    "Type": "Truck",
+    "login": "Thaitanic1",
+    "password": "kungpao",
+    "zipcode":"78701",
+    "name": "Thaitanic Truck #1",
+    "qrCode": "byte",
+    "foodPark": 3,
+    "location": {
+        "latitude": "30.2544287",
+        "longitude": " -97.7371197 "
+    }
+  },
+  {
+    "id": 211,
+    "company": 2,
+    "Type": "Cart",
+    "login": "Thaitanic2",
+    "password": "mongobeef",
+    "zipcode":"78704",
+    "name": "Thaitanic Cart #1",
+    "qrCode": "byte",
+    "foodPark": 2,
+    "location": {
+        "latitude": "30.2560786",
+        "longitude": "-97.76350909999996"
+      }
+  },
+  {
+    "id": 212,
+    "company": 1,
+    "Type": "Truck",
+    "login": "pacosattack",
+    "password": "guacamole",
+    "zipcode":"78701",
+    "name": "Paco's Tacos Truck #1",
+    "qrCode": "byte",
+    "foodPark": 2,
+    "location": {
+        "latitude": "30.2560786",
+        "longitude": "-97.76350909999996"
+      }
+  }
+],
+
+"foodParks":
+[
+{
+    "id": 1,
+    "name": "The Picnic",
+    "locationName" : "Zilker Park",
+    "zipcode":"78701",
+    "location": {
+        "latitude": "30.2635748",
+        "longitude": " -97.7627071"
+      }
+},
+{
+    "id": 2,
+    "name": "Alamo Drafthouse",
+    "locationName" : "South Lamar",
+    "zipcode":"78704",
+    "location": {
+        "latitude": "30.2560786",
+        "longitude": "-97.76350909999996"
+      }
+},
+{
+    "id": 3,
+    "name": "Austin Food Park",
+    "locationName" : "I-35, Convention Center",
+    "zipcode":"78701",
+    "location": {
+        "latitude": "30.2544287",
+        "longitude": " -97.7371197 "
+      }
+}
+],
+
+"reviews":
+[
+  {
+    "id": 1,
+    "user": 2,
+    "reviewName": "FoodieReview.com",
+    "comment": " Very clean and the customer service is excellent.",
+    "score": "4.8",
+    "mobileVendor" : 201
+  },
+  {
+    "id": 2,
+    "user": 3,
+    "reviewName": "Good Eats Magazine",
+    "comment": "Broad selection of quality burgers and creative menu.",
+    "score": "4.9",
+    "mobileVendor" : 201
+  },
+  {
+    "id": 3,
+    "user": 1,
+    "comment": " Yellow Belly has the best Gorgonzola bacon burger in the city.  ",
+    "score": "4.7",
+    "mobileVendor" : 211
+  },
+  {
+    "id": 4,
+    "user": 4,
+    "comment": " BIG portions prepared exactly how you request and unreasonably low prices!!!  Love Yellow Belly! ",
+    "score": "4.6",
+    "mobileVendor" : 211
+  }
+],
+
+"dailySpecials":
+[
+  {
+    "id": 1,
+    "name": "Buy 1 Entre, Get 1 Free",
+    "price": "$9"
+  },
+  {
+    "id": 2,
+    "name": "$10 Worth of Food",
+    "price": "$7"
+  },
+  {
+    "id": 3,
+    "name": "2 Tacos, Chips/Salsa & Drink",
+    "price": "$8"
+  }
+],
+
+"categories":
+[
+  {
+    "id": 1,
+    "categoryName": "Breakfast"
+  },
+  {
+    "id": 2,
+    "categoryName": "Express"
+  },
+  {
+    "id": 3,
+    "categoryName": "Tacos"
+  },
+  {
+    "id": 4,
+    "categoryName": "Sauces"
+  },
+  {
+    "id": 5,
+    "categoryName": "Shell"
+  },
+  {
+    "id": 6,
+    "categoryName": "Others"
+  }
+],
+
+"menuItems":
+[
+  {
+    "id": 1,
+    "name": "Beef Taco",
+    "description": "mouthwatering tacos stuffed with beef",
+    "category": 3,
+    "photo":  "3333",
+    "price":  "$6"
+  },
+  {
+    "id": 1,
+    "name": "Veggie Taco",
+    "description": "vegans will love this gluten-free alternative",
+    "category": 3,
+    "photo":  "2222",
+    "price":  "$5"
+  },
+  {
+    "id": 1,
+    "name": "Pork Tacos",
+    "description": "smoked pork, pico de gallo and lettuce",
+    "category": 3,
+    "photo":  "2222",
+    "price":  "$4"
+  }
+],
+
+"optionItems":
+[
+ {
+    "id": 1,
+    "name": "Mild",
+    "category": 4,
+    "price":  "$0"
+  },
+  {
+    "id": 2,
+    "name": "Hot",
+    "category": 4,
+    "price":  "$0"
+  },
+  {
+    "id": 1,
+    "name": "Hard",
+    "category": 5,
+    "price":  "$0"
+  },
+  {
+    "id": 2,
+    "name": "Soft",
+    "category": 5,
+    "price":  "$0"
+  },
+  {
+    "id": 1,
+    "name": "Extra Beef",
+    "category": 6,
+    "price":  "$2"
+  },
+  {
+    "id": 2,
+    "name": "Extra Gaucamole",
+    "category": 6,
+    "price":  "$1"
+  }
+],
+  "users":
+[
+  {
+    "id": 1,
+    "name": "Stacy T",
+    "description": "Taco expert. I love tacos.",
+    "photo": "12345",
+    "email": "stacyt@fake.com",
+    "facebook": "www.facebook.com/stacytfakeaccount",
+	  "powerReviewer": "false"
+
+  },
+  {
+    "id": 2,
+    "name": "Jonathan Jones",
+    "description": "Serial food eater",
+    "photo": "54321",
+    "email": "jonjones@foodie.com",
+    "facebook": "www.facebook.com/jonjonesfakeaccount",
+	  "powerReviewer": "true"
+  },
+  {
+    "id": 3,
+    "name": "Marco and Inez",
+    "description": "Foood bloggers. Follow us on mifood.blog.com",
+    "avatar": "00000",
+     "email": "marco_inez@gmail.com",
+    "facebook": "www.facebook.com/mifoodfakeaccont",
+	  "powerReviewer": "true"
+  }
+],
+  "checkins":
+[
+  {
+    "user": 1,
+    "mobileVendor": 2,
+    "checkinDate": "04/12/2016"
+
+  },
+  {
+    "user": 1,
+    "mobileVendor": 1,
+    "checkinDate": "01/02/2016"
+
+  },
+  {
+    "user": 2,
+    "mobileVendor": 1,
+    "checkinDate": "03/07/2016"
+  },
+  {
+    "user": 3,
+    "mobileVendor": 1,
+    "checkinDate": "05/20/2016"
+  }
+]
+
+}

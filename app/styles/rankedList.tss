@@ -1,0 +1,64 @@
+"#reviewIcon" : {
+	image: "/images/create_review.png"
+}
+
+"#jujoIcon" : {
+	image: "/images/white-star.png"
+}
+
+"#returnIcon" : {
+	image: "/images/arrows.png"
+}
+
+
+".imageFT": {
+	left: Alloy.Globals.navigatorIconPadding,
+	height: 48,
+	width: 48,
+	bottom: 10,
+	top: 10,
+	image: "/images/foodtruck.png"
+}
+
+"#rankedListTable": {
+	backgroundColor: Alloy.Globals.windowBackgroundColor2
+}
+
+"#rankedListScroller": {
+	top: Alloy.Globals.navigatorHeight
+}
+
+"#backRankedListViewIcon" : {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+".labelUserName": {
+   	left: 70,
+   	top: 5,
+	color: Alloy.Globals.lightTextColor,
+	wordWrap: true,
+	font: {fontSize: 14	, fontWeight:'bold'}
+}
+
+".labelDetails": {
+   	left: 70,
+   	top: 5,
+	color: Alloy.Globals.lightTextColor,
+	wordWrap: true,
+	font: {fontSize: 12	, fontWeight:'bold'}
+}
+
+".detailsTableRow" : {
+	height: Titanium.UI.SIZE,
+	top: 25,
+	layout: "vertical"
+}
+
+"#reviewIconView" : {
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+"#returnIconView" : {
+	left: Alloy.Globals.navigatorIconPadding
+}

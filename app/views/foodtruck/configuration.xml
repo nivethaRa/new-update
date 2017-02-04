@@ -1,0 +1,70 @@
+<Alloy>
+	<!--<Window backgroundColor="transparent" >-->
+		<ScrollView id="scroll">
+		<View id="configuration" class="mainView">
+			<View id="viewThree" class="vl heightSize top0" >
+				<Label class="createActLbl" />
+				<View class="saperatorLight top5" />
+				
+				<Label  class ="selectLbl heightSize" text="Consumer Order Window (min)"/>
+				<View class="heightSize top5 hl">
+					<Slider id="orderSlider" top="10"/>
+					<Label id="distanceLabel" />
+					<View id="sliderLblView" class="hl top5 heightSize">
+						<Label  class ="cbLbl" text="20"/>
+						<Label id="centerMin" class ="cbLbl" text="30"/>
+						<Label id="centerMin" class ="cbLbl" text="40"/>
+						<Label id="centerMin" class ="cbLbl" text="50"/>
+						<Label id="rightMin" class ="cbLbl" text="60"/>
+						<!-- <Label id="cbLbl0" text="15"/>
+						<Label id="cbLblCenter" text="30"/>
+						<Label id="cbLblCenter" text="45"/>
+						<Label id="cbLblRight" text="60"/> -->
+					</View>
+				</View>
+				
+				<Label  class ="selectLbl heightSize" text="Prep Time Notification (min)"/>
+				<View class="heightSize top5 hl">
+					<Slider id="prepTimeSlider" top="10" />
+					<Label id="distanceLabel" />
+					<View id="sliderLblView" class="hl top5 heightSize">
+						<Label  class ="cbLbl" text="10"/>
+						<Label id="centerMin" class ="cbLbl" text="15"/>
+						<Label id="centerMin" class ="cbLbl" text="20"/>
+						<Label id="centerMin" class ="cbLbl" text="25"/>
+						<Label id="rightMin" class ="cbLbl" text="30"/>
+					</View>
+				</View>
+				
+				<Label  class ="selectLbl heightSize" text="Delivery Time (min)"/>
+				<View class="heightSize top5 hl">
+					<Slider id="deliverySlider" top="10" />
+					<Label id="distanceLabel" />
+					<View id="sliderLblView" class="hl top5 heightSize">
+						<Label  class ="cbLbl" text="10"/>
+						<Label id="centerMin" class ="cbLbl" text="15"/>
+						<Label id="centerMin" class ="cbLbl" text="20"/>
+						<Label id="centerMin" class ="cbLbl" text="25"/>
+						<Label id="rightMin" class ="cbLbl" text="30"/>
+					</View>
+				</View>
+				<Label  class ="selectLbl heightSize" text="Delivery Charge"/>
+				<TextField id="tagsTF" class="loginField" />
+				
+				<Label id="foodPark"  class ="selectLbl heightSize top10" text="Food Park Managed"/>
+				<View class="heightSize top0 hl">
+					<ImageView id="fstRadio" class="radioBtn top5 left15" onClick="Radio1Cliked" />
+					<Label  class="itemLbl top5 left10 heightSize" text="Off"/>
+				</View>
+				
+				<View class="heightSize top0 hl">
+					<ImageView id ="sndRadio" class="radioBtn top5 left15" onClick="Radio2Cliked" />
+					<Label  class ="itemLbl top5 left10 heightSize" text="On"/>
+				</View>
+				<View class="height20 top25"/>
+				<Button class="nxtBtn" onClick="searchPrefClicked"/>
+			</View>
+			</View>
+		</ScrollView>
+	<!--</Window>-->
+</Alloy>

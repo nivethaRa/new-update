@@ -1,0 +1,80 @@
+"#mapListView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor: "#000",
+	height: "40"
+},
+
+"#scrlView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor:Alloy.Globals.buttonColor4,
+	height: 55
+},
+
+
+ 
+".maplistH":{
+	left: 0,
+	color:"#FFF",
+	width: "50%",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	backgroundColor: "#000",
+	height: "40"
+},
+
+".listH":{
+	right: 0,
+	height: "40",
+	width: "50%",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	backgroundColor: "#000",
+	color:Alloy.Globals.buttonColor3
+},
+
+"#baseLine":{
+	right: 77,
+	top: 30,
+	height: 2,
+	width: 35,
+	backgroundColor:Alloy.Globals.buttonColor3
+}
+
+"#vendorListTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+
+".mapArea":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+".container":{
+	layout:"vertical",
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+".containernew":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}

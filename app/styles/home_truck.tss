@@ -1,0 +1,24 @@
+"#mainMenuIconView": {
+	layout: "vertical",
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}
+"#baseHomeView": {
+	layout: "absolute",
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}
+
+"#mainMenuIcon": {
+	image: "/images/menu-circular-button.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#mainBaseView": {
+	layout: "vertical",
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}

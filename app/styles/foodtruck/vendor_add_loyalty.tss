@@ -1,0 +1,50 @@
+
+".container" : {
+  backgroundColor:Alloy.Globals.windowBackgroundLight
+  
+}
+
+"#save": {
+  backgroundColor: Alloy.Globals.navBarColor,
+  borderColor: Alloy.Globals.navBarColor,
+  color: "white"
+}
+
+"#prizeImage": {
+  top : 60,
+  width: 100,
+  height: 100,
+  image: "/images/prize_gold.png",
+}
+
+"#points": {
+  color: "gray",
+  top: 5, 
+  left: 20,
+  hintText: "10",
+  hintTextColor: "gray",
+  backgroundColor: "white",
+  height: "40",
+  width: "60",
+  font: {
+		fontSize: 18,
+		fontFamily: 'Regular',
+	},
+}
+
+"#desc": {
+  color: "Black",
+  top: 5,
+  padding: 0,
+  left: 20,
+  hintText: "1 Free side", 
+  hintTextColor: "gray",
+  height: 80,
+  backgroundColor: "white",
+  width: "90%",
+  font: {
+		fontSize: 18,
+		fontFamily: 'Regular',
+	},
+}
+

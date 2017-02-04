@@ -1,0 +1,36 @@
+<Alloy>
+	<View id="settingsWin" class="mainView">
+		<ScrollView id="scroll">
+
+			<Label class="createActLbl" />
+			<View class="saperatorLight top5" />
+			<Label  class ="selectLbl heightSize" text="L('SettingsSocial')"/>
+			<View class="heightSize top15 hl"> 
+				<ImageView id="fbShareBtn"/>
+				<ImageView id="instaShareBtn"/>
+				<ImageView id="whatsupShareBtn"/>
+			</View>
+			<Label  class ="selectLbl heightSize" text="L('SignInEmail')"/>
+			<TextField id="email" class="loginField" />
+			
+			<Label  class ="selectLbl heightSize" text="L('SettingsPhone')"/>
+			<TextField id="phone" class="phoneField" />
+			
+			<Label  class ="selectLbl heightSize" text="L('SettingsPush')"/>
+			<View class="heightSize top0 hl">
+				<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="false" class="checkBox top10 left15" />
+				<Label  class="itemLbl top10 left10 heightSize" text="L('DailySpecials')" />
+			</View>
+			<View class="heightSize top0 hl">
+				<ImageView id ="ck2" onClick="UpdateCheckBox" idCheck="false" class="checkBox top10 left15" />
+				<Label  class ="itemLbl top10 left10 heightSize" text="L('SettingsPushEvents')"/>
+			</View>
+
+			<Label  class ="selectLbl heightSize" text="L('SettingsHome')"/>
+			<View class="heightSize top0 hl">
+				<ImageView id="fstHRadio" class="radioBtn top5 left15"onClick="fstHomeRadioCliked" />
+				<Label  class="itemLbl top5 left10 heightSize" text="L('SettingsHomeDefault')"/>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

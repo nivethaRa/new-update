@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+			<View class="navigator" id="backMenuIconView">
+				<ImageView id="backMenuIcon" class="navigatorIcon" />
+				<Label text="L('sfez')" class="windowTitle" />
+			</View>
+			<View  class="mainView">
+				<ImageView id="qrCode" />
+				<ActivityIndicator id="qrActivityIndicator" message="L('loading')"/>
+			</View>
+	</Window>
+</Alloy>

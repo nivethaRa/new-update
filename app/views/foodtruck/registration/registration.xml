@@ -1,0 +1,89 @@
+<Alloy>
+	<!--<Window backgroundColor="transparent" >-->
+	<View id="settingsWin" class="mainView">
+		<ScrollView id="scroll">
+			<View id="viewOne" class="vl heightSize top0" >
+				<!--<Label class="createActLbl" />
+				<View class="saperatorLight top5" />-->
+				<Label  class ="selectLbl heightSize" text="Step 1"/>
+				<Label  class ="selectLbl1 heightSize" text="Vendor Name"/>
+				<TextField id="email" class="loginField" />
+				<Label  class ="selectLbl1 heightSize" text="Add a logo or picture of your venue"/>
+				<ImageView id="vanuePic" class="profilePic" onClick="setVenuePic" />
+				<Label  class ="selectLbl1 heightSize" text="Add a picture of your favorite dish"/>
+				<ImageView id="favDishPic" class="profilePic" onClick="setFavDish" />
+				<Button class="nxtBtn" onClick="stepOneNext"/>
+			</View>
+			<View id="viewTwo" class="vl heightSize top0" visible="false">
+				<!--<Label class="createActLbl" />
+				<View class="saperatorLight top5" />-->
+				<Label  class ="selectLbl heightSize" text="Step 2"/>
+				<Label  class ="selectLbl1 heightSize" text="Add Tags"/>
+				<View id="midView" class="top10">
+				</View>
+				<!-- <Label  class ="selectLbl heightSize" text="Tags"/> -->
+				<View class="hl heightSize top10">
+					<TextField id="email" class="addTags" />
+					<Button class="addMeBtn"/>
+				</View>
+				<View class="hl heightSize top5">
+					<Button id="maxicanBtn"/>
+					<Button id="carneBtn"/>
+				</View>
+				<View class="height20 top25"/>
+				<Button class="nxtBtn" onClick="stepTwoNext"/>
+			</View>
+			<View id="viewThree" class="vl heightSize top0" visible="false">
+				<!---<Label class="createActLbl" />
+				<View class="saperatorLight top5" />-->
+				<Label  class ="selectLbl heightSize" text="Step 3"/>
+				<Label  class ="selectLbl1 heightSize" text="Tell us what makes you unique"/>
+				<TextArea id="comentTA" />
+				<Label  class ="selectLbl1 heightSize top10" text="Select style"/>
+				<View class="heightSize top5 hl">
+					<ImageView id="fstRadio" class="radioBtn top5 left15" onClick="Radio1Cliked" />
+					<ImageView id="image1" class="left10 top5" image="/images/brick.png" />
+					<Label  class="itemLbl top5 left10 heightSize" text="Brick & morter"/>
+				</View>
+				<View class="heightSize top5 hl">
+					<ImageView id ="sndRadio" class="radioBtn top5 left15" onClick="Radio2Cliked" />
+					<ImageView id="image2" class="left10 top5" image="/images/truck.png" />
+					<Label  class ="itemLbl top5 left10 heightSize" text="Food truck"/>
+				</View>
+				<View class="heightSize top5 hl">
+					<ImageView id ="trdRadio" class="radioBtn top5 left15" onClick="Radio3Cliked" />
+					<ImageView id="image3" class="left10 top5" image="/images/foodcart.png" />
+					<Label  class ="itemLbl top5 left10 heightSize" text="Food cart"/>
+				</View>
+				<View class="height20 top25"/>
+				<Button class="nxtBtn" onClick="stepThreeNext"/>
+			</View>
+			<View id="viewFour" class="vl heightSize top0" visible="false" >
+				<!--<Label class="createActLbl" />
+				<View class="saperatorLight top5" />-->
+				<Label  class ="selectLbl heightSize" text="Step 4"/>
+				<Label  class ="selectLbl1 heightSize" text="Weekly shedule"/>
+				<View class="heightSize hl">
+					<Button class="weekBtn" idCheck="true" title="M" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="T" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="W" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="T" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="F" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="S" onClick="weekBtnClicked"/>
+					<Button class="weekBtn" idCheck="true" title="S" onClick="weekBtnClicked"/>
+				</View>
+				<Label  class ="selectLbl1 heightSize" text="Typical hours"/>
+				<TextField id="hrsTF" class="loginField" hintText="ex M-F 11am to 8pm" />
+				<View class="heightSize top10 hl">
+					<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="false" class="checkBox top10 left10" />
+					<Label  class="itemLbl top10 left10 heightSize" text="use hours provided on facebook/website"/>
+				</View>
+				<Label  class ="selectLbl1 heightSize" text="Facebook/Website"/>
+				<TextField id="hrsTF" class="loginField" hintText="ex www.exaple.com" />
+				<View class="height20 top25"/>
+				<Button class="nxtBtn" onClick="stepFourNext"/>
+			</View>
+		</ScrollView>
+	</View>
+	<!--</Window>-->
+</Alloy>

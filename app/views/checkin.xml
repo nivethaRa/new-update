@@ -1,0 +1,40 @@
+<Alloy>
+	<Window class="container">
+			<View id="backMenuIconView" class="navigator">
+				<ImageView id="backMenuIcon" class="navigatorIcon" />
+				<Label text="L('checkin')" class="windowTitle" />
+			</View>
+			<ScrollableView id="scrollable">
+				<ScrollView id="startCheckinView" class="scroll">
+					<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+					<View id="mapContainer">
+
+					</View>
+					<Button id="useMyLocation" title="L('useMyLocation')" class="buttonLabel" />
+					<Button id="useEvents" title="L('useEvents')" class="buttonLabel" />
+					<Button id="usePlaces" title="L('usePlaces')" class="buttonLabel" />
+
+					<Label text="L('leaveAComment')" class="defaultLabel" />
+					<TextArea id="description" class="defaultField" />
+
+					<Button id="nextToDate" class="buttonSubmit" title="L('next')" enabled="false" />
+				</ScrollView>
+
+				<ScrollView id="setStartDate" class="scroll">
+					<Label text="L('checkinStartDate')" class="defaultLabel" />
+					<Picker id="checkinStartTime" type="Titanium.UI.PICKER_TYPE_TIME">
+					</Picker>
+
+					<Button id="submitStartDate" class="buttonSubmit" title="L('next')" />
+				</ScrollView>
+
+				<ScrollView id="doCheckinView" class="scroll">
+					<Label text="L('checkinFinishDate')" class="defaultLabel" />
+					<Picker id="checkinFinishTime" type="Titanium.UI.PICKER_TYPE_TIME">
+					</Picker>
+
+					<Button id="submitRequest" class="buttonSubmit" title="L('checkin')" />
+				</ScrollView>
+			</ScrollableView>
+	</Window>
+</Alloy>

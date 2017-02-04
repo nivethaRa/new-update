@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="mapWindow"  class="containerLight vl" layout="vertical">
+		<View class="navigator" height="55" backgroundColor="#68c7c7">
+			<ImageView id="backListViewIcon" onClick="closeWindow" />
+			<Label id="winTitle" text="L('MapRoute')"/>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: SumUpURICall
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: SumUpURICall
+moduleid: com.oodles.sumupuricall
+guid: 40e561a1-a4ca-4163-b1d2-c8f014043e56
+platform: android
+minsdk: 3.5.1.GA

@@ -1,0 +1,31 @@
+<Alloy>
+	<Window class="container">
+		<ScrollableView id="mainScrollableView">
+			<View id="rankedListView">
+				<View class="navigator">
+					<ImageView id="backRankedListViewIcon" class="navigatorIcon" />
+					<Label text="L('sfez')" class="windowTitle" />
+				</View>
+				<ActivityIndicator id="menuActivityIndicator" message="Loading..."/>
+				<ScrollView id="rankedListScroller">
+					<TableView id="rankedListTable"> </TableView>
+				</ScrollView>
+				<View class="bottomNavigator">
+					<View class="bottomNavigatorDivisor"></View>
+					<View class="bottomNavigatorIconView" id="reviewIconView">
+						<ImageView id="reviewIcon" class="navigatorIcon" />
+						<Label text="L('reviewNumber')" class="navigatorLabel" />
+					</View>
+					<View class="bottomNavigatorIconView" id="jujoIconView">
+						<ImageView id="jujoIcon" class="navigatorIcon"/>
+						<Label text="L('stars')" class="navigatorLabel" />
+					</View>
+					<View class="bottomNavigatorIconView" id="returnIconView" >
+						<ImageView id="returnIcon" class="navigatorIcon"/>
+						<Label text="L('returnPercentage')" class="navigatorLabel" />
+					</View>
+				</View>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

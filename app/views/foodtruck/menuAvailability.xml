@@ -1,0 +1,7 @@
+<Alloy>
+	<!--<Window  titleImage="images/appicon.png" id="win" title="">-->
+	<View id="menuAvalView" class="mainView cl">
+		<TableView id="tacosTable" class="tableSapColor"/>
+	</View>
+	<!--</Window>-->
+</Alloy>

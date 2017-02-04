@@ -1,0 +1,139 @@
+".container": {
+  layout: "vertical",
+  top:0,
+  backgroundColor:"transparent",
+  bottom:0,
+  left:0,
+  right:0
+}
+
+".mainWindow":{
+  top:0,
+  backgroundColor:"#B3000000",
+  bottom:0,
+  left:0,
+  right:0
+}
+ 
+
+".menuButton":{
+	height:30,
+	width:30,
+	backgroundColor:"transparent",
+	backgroundImage:"images/tabicons/menu.png"
+}
+".saperatorLight":{
+	backgroundColor:"#D5D5D9",
+	height:1
+}
+".checkoutbutton":{
+	height:30,
+	width:25,
+	backgroundColor:"transparent",
+	backgroundImage:"images/tabicons/cart.png"
+}
+
+".menuHeader":{
+	left:20,
+	top: 40,
+	font: {
+		fontSize: 24,
+		fontFamily: 'Raleway',
+	},
+}
+".loginHeader":{
+	backgroundColor: "blue",//"#FFFFFF",
+	layout: "vertical",
+	height:120
+}
+".menuOption":{
+	color:"black",
+	left:20,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	height:25,
+	top: 2
+}   
+
+".sidemenu":{
+	layout:"vertical",
+	backgroundColor: "red",  //"#EDECE7",
+	top:0,
+	width:250,
+	left: -250
+}
+
+"#scroll": {
+  layout: "vertical",
+  showVerticalScrollIndicator: false,
+  showHorizontalScrollIndicator: true
+}
+
+"#divView": {
+  height: 30,
+  left: 30, 
+  right: 30
+}
+
+"#divLabel": {
+  width: "20%",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#divLeft" : {
+  height: 3,
+  left: 0,
+  width: "40%",
+  backgroundColor: Alloy.Globals.darkTextColor
+}
+
+"#divRight" : {
+  height: 3,
+  right: 0,
+  width: "40%",
+  backgroundColor: Alloy.Globals.darkTextColor
+}
+
+".loginField": {
+  top: 15,
+  left: 30,
+  right: 30,
+  height: 40,
+  borderRadius: 9,
+  backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+  passwordMask: true
+}
+
+"#login": {
+  left: 30,
+  right: 30,
+  color: Alloy.Globals.lightTextColor,
+}
+
+"#othersLogin": {
+  height: 50,
+  left: 30,
+  right: 30,
+  color: Alloy.Globals.normalTextColor
+}
+
+"#register": {
+  top: 30,
+  left: 30,
+  right: 30,
+  backgroundColor: Alloy.Globals.buttonColor4,
+  borderColor: Alloy.Globals.buttonColor4,
+  color: Alloy.Globals.normalTextColor
+}
+
+"Window": {
+  backgroundColor:"white"
+}
+
+

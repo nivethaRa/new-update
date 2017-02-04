@@ -1,0 +1,50 @@
+<Alloy>
+	<Window  titleImage="images/appicon.png" id="win" title="">
+	<View id="checkinFourthwin" class="mainView" >
+		<ScrollView  class="vl">
+			<View  class="top0 height20 btnBg">
+				<Label text="Time: 11:02 AM" />
+			</View>
+			<View  id="mapV"></View>
+			<Label text="L('CheckInLandmark')" />
+			<TextField  class="postcodeTF" hintText= "5th Stack"/>
+			<Label text="L('CheckInClosingTime')" class="lblclose"/>
+			<Picker id="picker" class="chickinPicker" >
+				<PickerColumn id="column1">
+					<PickerRow title="01"/>
+					<PickerRow title="01:30"/>
+					<PickerRow title="02"/>
+					<PickerRow title="02:30"/>
+					<PickerRow title="03"/>
+					<PickerRow title="03:30"/>
+					<PickerRow title="04"/>
+					<PickerRow title="04:30"/>
+					<PickerRow title="05"/>
+					<PickerRow title="05:30"/>
+					<PickerRow title="06"/>
+					<PickerRow title="06:30"/>
+					<PickerRow title="07"/>
+					<PickerRow title="07:30"/>
+					<PickerRow title="08"/>
+					<PickerRow title="08:30"/>
+					<PickerRow title="09"/>
+					<PickerRow title="09:30"/>
+					<PickerRow title="10"/>
+					<PickerRow title="10:30"/>
+					<PickerRow title="11:"/>
+					<PickerRow title="11:30"/>
+					<PickerRow title="12"/>
+					<PickerRow title="12:30"/>
+				</PickerColumn>
+				<!-- Picker shorthand notation -->
+				<Column id="column2">
+					<Row title="AM"/>
+					<Row title="PM"/>
+				</Column>
+			</Picker>
+			<Button title="L('Save')" class="saveButton" onClick="saveClicked" />
+
+		</ScrollView>
+	</View>
+	</Window>
+</Alloy>

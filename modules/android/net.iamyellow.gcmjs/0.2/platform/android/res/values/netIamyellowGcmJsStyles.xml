@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="NetIamyellowGcmJsColorTransparent">#00000000</color>
+	<style name="NetIamyellowGcmJsInvisibleTheme" parent="android:Theme.NoTitleBar">
+		<item name="android:colorForeground">@color/NetIamyellowGcmJsColorTransparent</item>
+		<item name="android:colorBackground">@color/NetIamyellowGcmJsColorTransparent</item>
+		<item name="android:windowBackground">@color/NetIamyellowGcmJsColorTransparent</item>
+	</style>
+</resources>

@@ -1,0 +1,82 @@
+"#win":{
+	theme: 'Theme.NoActionBar'
+}
+"#reviewsRat":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor: "#000",
+	height: "50",
+	layout: "vertical"
+},
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width: "100%",
+	top: 0,
+	left: 0,
+	bottom: 0,
+	right: 0
+}
+"#filterView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor: Alloy.Globals.mapsBackgroundColor,
+	height: "35",
+	layout: "horizontal"
+},
+".left160":{
+	left: 95
+}
+".filtrLbl":{
+	top: 10,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	font: {
+		fontSize: 11,
+		fontFamily: 'Lucida Grande'
+	},
+	color:Alloy.Globals.normalInputTextColor
+}
+
+".dropDown":{
+	top: 7,
+	left: 5,
+	image: "/images/up_down.png",
+	height: 20,
+	width: 16
+}
+
+
+"#reviwsLbl":{
+	top: 5,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	textAlign: "center",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color:Alloy.Globals.mapsBackgroundColor
+},
+
+"#ratLbl":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	textAlign: "center",
+	font: {
+		fontSize: 12,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color:Alloy.Globals.buttonColor3
+},
+
+"#reviewsViewTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}

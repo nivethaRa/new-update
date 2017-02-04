@@ -1,0 +1,212 @@
+"#backMenuIcon" : {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#FTname": {
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: Alloy.Globals.lightTextColor,
+	bottom: 5,
+	wordWrap: true,
+	font: {fontSize: 14, fontWeight:'bold'}
+}
+
+"#starwidget" : {
+	height: 20
+}
+
+"#starsDesc" : {
+	width: Titanium.UI.FILL,
+	height: 20
+}
+
+"#statusDescContainer": {
+	width: Titanium.UI.FILL,
+	height: 48,
+	bottom: 15
+}
+
+"#statusDesc": {
+	layout: "horizontal",
+	width: Titanium.UI.SIZE,
+	height: 48
+}
+
+
+".statusItem": {
+	height: 54,
+	width: 54,
+	left: 3,
+	right: 3
+}
+
+".reviewItem": {
+	layout: "horizontal",
+	height: '44dp',
+	width: Ti.UI.FILL,
+	left: 3,
+	right: 3
+}
+
+".rewardItem": {
+	layout: "horizontal",
+	height: '44dp',
+	width: Ti.UI.FILL,
+	left: 3,
+	right: 3
+}
+
+".space" : {
+	top: '20dp',
+	bottom: '20dp'
+}
+
+"#rewardView": {
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	left: 3,
+	right: 3
+}
+
+".reward" : { 
+	height: '40dp',
+	width: '40dp'
+}
+
+".statusValue": {
+	font: {fontSize: 10, fontWeight:'bold'},
+	color: Alloy.Globals.darkTextColor
+}
+
+".statusGoldBadge": {
+	image: "/images/goldMedal.png"
+}
+".statusSilverBadge": {
+	image: "/images/silverMedal.png"
+}
+".statusBronzeBadge": {
+	image: "/images/bronzeMedal.png"
+}
+
+".returnPercentage": {
+	image: "/images/arrows.png"
+}
+
+".goldBadge": {
+	image: "/images/goldBadge.png"
+}
+".silverBadge": {
+	image: "/images/silverBadge.png"
+}
+".bronzeBadge": {
+	image: "/images/bronzeBadge.png"
+}
+
+"#price": {
+	image: "/images/money.png"
+}
+
+"#FTDescription": {
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: Alloy.Globals.darkTextColor,
+	wordWrap: true,
+	font: {fontSize: 12, fontWeight:'bold'}
+}
+
+"#profileImage": {
+	borderRadius: 7,
+	image: "/images/foodtruck.png",
+	top: 15,
+	height: Alloy.Globals.profileImageHeight,
+	width: Alloy.Globals.profileImageHeight
+}
+
+".reviewStar": {
+	image: "/images/star.png",
+	height: '18dp',
+	width: '18dp',
+	top: 1,
+	left: '-8dp',
+}
+
+"#reviews": {
+	top: 20,
+	width: Titanium.UI.FILL,
+	height: 64
+}
+"#powerReviews": {
+	top: 20,
+	width: Titanium.UI.FILL,
+}
+
+"#reviewsContainer": {
+	top: 20,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+}
+
+".reviewUser": {
+	wordWrap: true,
+	color: Alloy.Globals.darkTextColor,
+	font: {fontSize: 14, fontWeight:'bold'},
+	height: 18,
+	left: 85,
+	top: 0,
+	zIndex: 2,
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+".reviewText": {
+	wordWrap: true,
+	font: {fontSize: 12, fontWeight:'bold'},
+	height: 48,
+	left: 85,
+	top: 18,
+	zIndex: 2,
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+".reviewImage": {
+	image: "/images/user.png",
+	height: 64,
+	width: 64,
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+".reviewImageCertified": {
+	image: "/images/verified.png",
+	right: Alloy.Globals.navigatorIconPadding,
+	top: 0,
+	height: '30dp',
+	zIndex: 0
+}
+
+".reviewContainer": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+"#createReviewButton": {
+	image: "/images/create_review.png",
+}
+
+"#requestJujo": {
+	image: "/images/trophy.png",
+}
+
+"#requestJujoView" : {
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#shareFacebook": {
+	image: "/images/shareFacebook.png",
+}
+
+"#shareFacebookView" : {
+	right: Alloy.Globals.navigatorIconPadding
+}

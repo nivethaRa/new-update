@@ -1,0 +1,17 @@
+"#mapWindow" : {
+	theme: 'Theme.NoActionBar',
+}
+
+"#backListViewIcon": {
+	image: "/images/consumerordering/ic_arrow_back_black_48dp.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	}
+}

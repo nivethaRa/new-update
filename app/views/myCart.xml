@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="myCartWin" class="containerLight vl" layout="vertical">
+		<View class="navigator" height="55" backgroundColor="#68c7c7">
+			<ImageView id="backListViewIcon" onClick="closeWindow" />
+			<Label id="winTitle" text="L('PacoTacaos')"/>
+		</View>
+		<View id="myCart"  layout="vertical" class="mainCartView cl">
+			<View height="50">
+				<Label  id="my_order" text="L('MenuOrderMyOrder')"/>
+				<View class="saperatorLight bottom0"/>
+			</View>
+			<ScrollView id="myCartTable">
+				<ListView id="selectedMenuItemList" defaultItemTemplate="template">
+					<Templates>
+						<Require src="selectedMenuItemRow"/>
+					</Templates>
+					<ListSection id="section"/>
+				</ListView>
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

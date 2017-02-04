@@ -1,0 +1,109 @@
+"#leftView":{
+	top: 0,
+	left: 0,
+	layout: "vertical",
+	height:Ti.UI.SIZE,
+	width: "75%"
+}
+
+"#rightView":{
+	top: 0,
+	right: 0,
+	// layout:"vertical",
+	height:Ti.UI.SIZE,
+	width: "25%"
+},
+
+	//"#itemPic":{
+		//top: 15,
+	//backgroundColor: "red",
+	//	height: 50,
+	//	width: 50,
+		//image: "/images/consumerordering/sample_menu_item.png"
+	//},
+
+"#mainMenuIcon": {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#hazeViewContainer":{
+	theme: 'Theme.NoActionBar',
+	backgroundColor: "transparent"
+}
+"#popupContainer":{
+	backgroundColor: '#000',
+	opacity: 0.5,
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+}
+"#popupBox":{
+	top: 60,
+	height: "70%",
+	backgroundColor: "#fff",
+	borderRadius: 5,
+	borderWidth: 2,
+	left: 10,
+	right: 10,
+	borderColor: "#68c7c7",
+	opacity: 1,
+	zIndex: 1,
+	bottom: 50,
+	bubbleParent: false,
+	touchEnabled: true,
+	layout: "vertical"
+}
+"#crossImage":{
+	right: 10,
+	image: "/images/consumerordering/white_cross.png",
+	bubbleParent: false,
+	touchEnabled: true
+}
+"#headerView":{
+	height: 50,
+	width: Ti.UI.FILL,
+	backgroundColor: "#68c7c7"
+}
+"#plusIcon":{
+	right: 20,
+	image: "/images/consumerordering/plus_icon.png",
+	height: 20,
+	width: 20
+}
+"#quantity":{
+	color: "#000"
+}
+"#minusIcon":{
+	left: 30,
+	image: "/images/consumerordering/minus_icon.png",
+	height: 20,
+	width: 20
+}
+"#quantityLabel":{
+	top: 10,
+	left: 30,
+	color: "#000",
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	}
+}
+"#dynamicView":{
+	left: 30,
+	right: 20,
+	height: 0,
+	layout: "vertical"
+}
+"#signleSelect":{
+	height: 0,
+	layout: "vertical"
+}
+"#multipleSelect":{
+	height: 0,
+	layout: "vertical"
+}
+"#extras":{
+	height: 0,
+	layout: "vertical"
+}
+

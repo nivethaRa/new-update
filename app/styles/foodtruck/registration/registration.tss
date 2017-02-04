@@ -1,0 +1,245 @@
+".nxtBtn": {
+	title: "NEXT",
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	width: 130,
+	top: 15,
+	bottom: 20,
+	borderRadius: 2
+},
+
+".addMeBtn": {
+	title: "+ Add",
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande'
+	},
+	backgroundColor: Alloy.Globals.buttonColor2,
+	borderColor: Alloy.Globals.buttonColor2,
+	height: 30,
+	right: 20,
+	width: 70,
+	top: 5,
+	borderRadius: 2
+},
+
+".weekBtn": {
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor2,
+	borderColor: Alloy.Globals.buttonColor2,
+	height: 30,
+	left: 15,
+	width: 30,
+	top: 15,
+	borderRadius: 2
+},
+".vendorName": {
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	}
+},
+
+
+"#maxicanBtn": {
+	title: "Maxican ^",
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande'
+	},
+	backgroundColor: "#000",
+	borderColor: Alloy.Globals.darkTextColor,
+	height: 30,
+	left: 15,
+	width: 110,
+	top: 15,
+	borderRadius: 2
+},
+"#carneBtn": {
+	title: "Carne Asada X",
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande'
+	},
+	backgroundColor: "#000",
+	borderColor: Alloy.Globals.darkTextColor,
+	height: 30,
+	left: 15,
+	width: 130,
+	top: 15,
+	borderRadius: 2
+},
+
+"#scroll": {
+	layout: "center",
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: true
+}
+
+"#midView": {
+	height: 170,
+	//width: Titanium.UI.FILL,
+	top: 0,
+	left:15,
+	right:15,
+	backgroundColor: "pink"
+}
+
+"#divLabel": {
+	width: "20%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#divLeft": {
+	height: 3,
+	left: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+"#divRight": {
+	height: 3,
+	right: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+".loginField": {
+	hintText: "ex Paco's Tacos",
+	hintTextColor:Alloy.Globals.lightTextColor,
+	top: 15,
+	left: 15,
+	right: 15,
+	//width: "100%",
+	height: 40,
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.darkTextColor
+}
+
+".addTags": {
+	hintText: "Your Tags",
+	hintTextColor:Alloy.Globals.lightTextColor,
+	top: 0,
+	left: 15,
+	right: 15,
+	width: "65%",
+	height: 40,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Regular'
+	},
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	color: Alloy.Globals.darkTextColor,
+	backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+	passwordMask: true
+}
+
+
+"#othersLogin": {
+	top: 20,
+	height: 50,
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.normalTextColor
+}
+
+"#register": {
+	top: 30,
+	left: 30,
+	right: 30,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4,
+	color: Alloy.Globals.normalTextColor
+},
+
+".createActLbl":{
+	textAlign: "left",
+	top: 15,
+	left: 15,
+	text: "Registration",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+
+"#comentTA":{
+	hintText: "Homemade tortillas, stuffed lime-marinated lengua, smothered in avocado and our famous melt-your-face salsa",
+	hintTextColor: "#AAAAAA",
+	top: 10,
+	left: 15,
+	right: 15,
+	paddingLeft: "10dp",
+	height: 160,
+	bottom: 10,
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground,
+	color: Alloy.Globals.darkTextColor,
+	font: {
+		fontSize: 12,
+		fontFamily: 'Lucida Grande'
+	}
+}
+
+".selectLbl":{
+	left: 15,
+	top: 10,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.darkTextColor
+},
+
+".selectLbl1":{
+	left: 15,
+	top: 10,
+	bottom: 5,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande'
+	},
+	color: Alloy.Globals.darkTextColor
+},
+
+".actButton": {
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	height: Alloy.Globals.defaultButtonHeight,
+	width: "60%",
+	top: 10,
+	borderRadius: Alloy.Globals.textFieldBorderRadius
+},
+

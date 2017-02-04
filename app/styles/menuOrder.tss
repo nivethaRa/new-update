@@ -1,0 +1,114 @@
+"#win":{
+	theme: 'Theme.NoActionBar',
+	backgroundColor: '#fff'
+}
+
+"#middleView":{
+	//top: 250
+}
+
+"#myOrderTable":{
+	//height: 250,
+	top: 0,
+	left: 0,
+	right: 0,
+	layout: "vertical"
+}
+
+"#tacosTable":{
+	//height: 305,
+	//top: 300,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+
+"#middleScroll":{
+	scrollType: "horizontal",
+	layout: "horizontal",
+	bottom: 0,
+	height: 50,
+	width: Titanium.UI.FILL,
+	contentWidth: 'auto',
+	contentHeight: 'auto',
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: false
+}
+
+"#backListViewIcon": {
+	image: "/images/consumerordering/ic_arrow_back_black_48dp.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	}
+}
+"#my_order":{
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+"#clickHereLabel":{
+	//top: 18,
+	left: 5,
+	font: {
+		fontSize: 12,
+		fontFamily: 'Regular'
+	},
+	color: "#71cbed",
+	text: L( 'click_here_to_edit')
+}
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	}
+}
+
+"#goToMyOrderView":{
+	right: 10,
+	height: Ti.UI.FILL,
+	width: Ti.UI.SIZE
+}
+
+"#cartIcon":{
+	image: "/images/consumerordering/cart.png",
+	bubbleParent: true,
+	height: 30,
+	width: 30
+}
+"#cartView":{
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	right: 10
+}
+"#cartLabel":{
+	font: {
+		fontSize: 12,
+		fontFamily: 'Regular'
+	},
+	text: L("cart"),
+	color: "#000",
+	top: -4,
+	zIndex: 1
+}
+"#menuItemSelectedCount":{
+	color: "#000",
+	font: {
+		fontSize: 12,
+		fontFamily: 'Regular'
+	},
+	right: 0,
+	top: 1,
+	zIndex: 1,
+	bubbleParent: true
+}

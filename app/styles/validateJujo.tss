@@ -1,0 +1,4 @@
+"#backMenuIcon" : {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding,
+}

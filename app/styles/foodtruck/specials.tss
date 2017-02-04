@@ -1,0 +1,102 @@
+"#specialsView":{
+	backgroundColor: "#EEEDE8",
+},
+"#topSView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	height: 190,
+	layout: "vertical"
+},
+
+"#scrlView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor:Alloy.Globals.buttonColor4,
+	height: 55
+},
+
+".tcsBtn": {
+	top: 10,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande'
+	},
+	width: 200,
+	right: 10,
+	height: 25,
+	borderWidth: 2,
+	color: "#FFF",
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	borderRadius: 2
+}
+
+".addBtn": {
+	top: 20,
+	font: {
+		fontSize: 12,
+		fontFamily: 'Lucida Grande',
+		fontWeight: 'bold'
+	},
+	width: 100,
+	left: 15,
+	height: 30,
+	borderWidth: 2,
+	color: "#FFF",
+	backgroundColor: "#A11F62",
+	borderColor: "#A11F62",
+	borderRadius: 2
+}
+
+
+"#spcialLbl":{
+	left: 15,
+	top: 9,
+	text: "Buy 1 entree get 1 free",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000",
+	height: 25,
+	width: 170
+},
+
+".cbLbl":{
+	left: 6,
+	top: 2,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000",
+	height: 25,
+	width: Titanium.UI.SIZE
+},
+
+".codeTF": {
+	top: 15,
+	left: 10,
+	width: 220,
+	height: 40,
+	borderRadius: 2,
+	backgroundColor: Alloy.Globals.fieldBackground,
+	color: "black",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Regular'
+	},
+	hintText: "ex 2 cheeseburger 2 fries $8",
+	hintTextColor:Alloy.Globals.lightTextColor,
+}
+
+"#specialsTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}

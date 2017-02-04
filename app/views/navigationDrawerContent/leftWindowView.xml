@@ -1,0 +1,16 @@
+<Alloy>
+	<View backgroundColor="#FFFFFF" layout="vertical">
+		<TableView id="leftMenuTableView" onClick="leftTableClick">
+			<TableViewRow id="firstRow">
+				<View layout="vertical"  touchEnabled="false" height="Titanium.UI.SIZE">
+					<View height="40%" top="15" backgroundColor="transparent" touchEnabled="false">
+						<Label id="personName"/>
+					</View>
+					<Label id="personEmailID"/>
+				</View>
+				<View id="separator"/>
+			</TableViewRow>
+		</TableView>
+		<!--<View id="separator"/>-->
+	</View>
+</Alloy>

@@ -1,0 +1,95 @@
+"#mapListView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor: "#000",
+	height: "40",
+	layout:"horizontal"
+},
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width : "100%",
+	top:0,
+	left:0,
+	bottom:0,
+	right:0
+}
+".container_new":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+
+"#scrlView":{
+	left: 0,
+	top: 0,
+	width: "100%",
+	backgroundColor:Alloy.Globals.buttonColor4,
+	height: 55
+},
+
+
+
+".maplistH":{
+	//left: 0,
+	color:Alloy.Globals.navBarColor,
+	width: "50",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	backgroundColor: "#000",
+	height: "40"
+},
+
+".hView":
+{
+	width: "50%",
+	height: "40",
+}
+
+".listH":{
+	//right: 0,
+	height: "40",
+	width: "50",
+	textAlign: "center",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	backgroundColor: "#000",
+	color:Alloy.Globals.navBarColor
+},
+
+".baseLine":{
+	//right: 0,
+	//left:0,
+	width: "40",
+	top: 30,
+	height: 2,
+	backgroundColor:Alloy.Globals.navBarColor
+}
+
+"#vendorListTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+
+
+".infoContainer": {
+	color: Alloy.Globals.lightTextColor,
+	height: 100,
+	width: Titanium.UI.FILL,
+	bottom: 55,
+	left: 0,
+	right: 0,
+	backgroundColor: Alloy.Globals.windowBackgroundColor,
+	zIndex: 2
+}

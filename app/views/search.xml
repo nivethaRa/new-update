@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="searchView" class="mainViewSearch">
+		<ScrollView id="searchScroller" >
+			
+			<Label text="L('applyTags')" class="defaultLabel" />
+			<View id="tagsContainer">
+				<Widget id="tagWidget" src="tagscomponent"/>
+			</View>
+			<Label text="L('distance')" class="defaultLabel" />
+			<View id="distanceComponents" class="heightSize hl" >
+				<Slider id="distanceSlider"/>
+				<Label id="distanceLabel" />
+			</View>
+		</ScrollView>
+		<View class="bottomNavigator">
+			<Button id="searchButton" title="L('search')" class="menuButton bottom0" />
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,396 @@
+<resources>
+    <string name="app_name">Street Food EZ</string>
+    <string name="facebook_app_id">1720870321493029</string>
+    <string name="sfez">SFEZ</string>
+    //Search
+    <string name="locationPurpose">Determinar a localização atual</string>
+    <string name="enableLocationService">Por favor, ative o seu GPS</string>
+    <string name="locationError">Não foi possível obter a sua localização. Verigique se o seu GPS está ativado</string>
+    <string name="placesLocationError">Não foi possível recuperar os locais. Verigique se o seu GPS está ativado</string>
+    //Consumer
+	//Login, logout and create account
+    <string name="login">Entrar</string>
+    <string name="login_fail">Falha na autenticação</string>
+    <string name="or">Ou</string>
+    <string name="notRegisteredMessage">Ainda não é membro? Cadastre-se agora.</string>
+    <string name="alreadyRegistered">Já sou um membro! Clique aqui para entrar.</string>
+    <string name="sign_up">Cadastrar</string>
+     <string name="save">Save</string>
+    <string name="signing_up">Cadastrando...</string>
+    <string name="authenticating">Autenticando...</string>
+    <string name="first_name">nome</string>
+    <string name="last_name">sobrenome</string>
+    <string name="email_example">email@exemplo.com</string>
+    <string name="password">password</string>
+    <string name="password_confirmation">confirmação do password</string>
+    <string name="sign_up_fail">Falha ao cadastrar</string>
+    <string name="sign_up_success">Sua requisição foi processada com sucesso, por favor, verifique o seu e-mail para finalizar o cadastro.</string>
+    <string name="password_does_not_match_confirmation">O password não corresponde com a confirmação do password</string>
+    <string name="password_too_short">Password muito curto (mínimo de 4 caracteres)</string>
+    <string name="incomplete_data">Formulário incompleto, todos os campos são necessários</string>
+    <string name="invalid_email">E-mail inválido</string>
+    <string name="user_verification_email_template">user_verification_pt_br</string>
+    <string name="congratulation_template">congratualtion_pt_br</string>
+    <string name="alert_label_ok">Ok</string>
+    <string name="alert_label_cancel">Cancelar</string>
+    <string name="alert_label_title">Informação</string>
+    <string name="requestRoleFoodTruckButton">Cadastre seu Food Truck!</string>
+    <string name="logout">Sair</string>
+    <string name="logoutFailure">Falha ao tentar sair</string>
+    <string name="loggingOut">Saindo...</string>
+    <string name="facebookLogoutFailure">Falha ao tentar sair do facebook</string>
+     
+    //Foodtruck
+    <string name="foodtruckName">Nome do Food Truck:</string>
+    <string name="phone">Telefone de contato:</string>
+    <string name="address">Endereço principal:</string>
+    <string name="whatMakeYouSpecial">Conte-nos o que faz de sua comida especial:</string>
+    <string name="submitRequest">Enviar sua requisição</string>
+    <string name="submitRequestError">Erro ao processar sua requisição</string>
+    <string name="submitingRequest">Enviando sua requisição...</string>
+    <string name="submit">Enviar</string>
+    <string name="becomeFoodTruckSuccess">O seu pedido foi processado com sucesso, aguarde o nosso contato com a confirmação e os próximos passos</string>
+    //Check-in
+    <string name="checkin">Check-in</string>
+    <string name="getUserProblem">Ocorreu um erro ao recuperar as informações do usuário. Por favor, reinicie o aplicativo.</string>
+    <string name="useMyLocation">Usar Minha Localização Atual</string>
+    <string name="usePlaces">Localizações Anteriores</string>
+    <string name="useEvents">Food Park/Eventos</string>
+    <string name="locating">Localizando...</string>
+    <string name="myFoodTruck">Meu Food Truck</string>
+    <string name="leaveAComment">Deixe um comentário</string>
+    <string name="checkinSuccess">Seu check-in foi registrado com sucesso</string>
+    <string name="checkinFailure">Falha ao realizar o check-in</string>
+    <string name="checkingIn">Realizando check-in...</string>
+    <string name="locationOf">Localização de</string>
+    <string name="next">Próximo</string>
+    //Review
+    <string name="createReview">Deixar Opinião</string>
+    <string name="details">Detalhes</string>
+    <string name="list">Lisagem</string>
+    <string name="searching">Localizando</string>
+    <string name="checkinFinishDate">Check-in finaliza em:</string>
+    <string name="checkinStartDate">Check-in começa em:</string>
+    <string name="selectTheFoodTruck">Clique no marcador vermelho para ver os detalhes</string>
+    <string name="noFoodTruckFound">Não há Food Truck disponíveis</string>
+    <string name="search">Buscar</string>
+    <string name="requsetFailure">Falha ao realizar requisição</string>
+    <string name="enterYourReview">Deixe seu comentário aqui!</string>
+    <string name="loading">Carregando...</string>
+    <string name="add_tag">Adicionar tag</string>
+    <string name="applyTags">Aplicar Tags</string>
+    <string name="question1">Quão satisfeito você está?</string>
+    <string name="question2">O foodtruck altera o menu com frequencia?</string>
+    <string name="question3">Você teve de esperar muito pela sua comida?</string>
+    <string name="question4">O preço é razoável comparado com outros?</string>
+    <string name="question5">Deixe uma nota para este foodtruck!</string>
+    <string name="ok">Ok</string>
+    <string name="reviewTextRequired">O comentário é obrigatório.</string>
+    //Request, validate QR code
+    <string name="validateJujo">Validar Pontos JuJo</string>
+    <string name="jujo">Jujo</string>
+    <string name="scanNewCode">Clique para ler um código!</string>
+    <string name="requestJujo">Solicitar Pontos JuJo</string>
+    <string name="shareFacebook">Compartilhar no Facebook</string>
+    <string name="jujoValidated">Ponto JuJo validado com sucesso!!!! Clique em OK para validar mais pontos.</string>
+    <string name="jujoNotValidated">Ponto JuJo não validado!!!! Clique em OK para tentar novamente.</string>
+    <string name="jujoValidatedGold">Parabéns! Você possui um novo membro Gold!!!</string>
+    <string name="jujoValidatedSilver">Parabéns! Você possui um novo membro Silver!!!</string>
+    <string name="jujoValidatedBronze">Parabéns! Você possui um novo membro Bronze!!!</string>
+    <string name="validating_jujo">Validando JuJo...</string>    
+    //Loyalty, Rewards
+    <string name="pricingRange">Selecione a faixa de preço:</string>
+    <string name="pricing">Selecione sua faixa de preço:</string>
+    <string name="pricing0">Qualquer Preço</string>
+    <string name="pricing1">Méd. $5</string>
+    <string name="pricing2">Méd. R$10</string>
+    <string name="pricing3">Méd. R$15</string>
+    <string name="pricing3">Méd. R$20</string>
+    <string name="distance">Distância</string>
+    <string name="distance0">Qualquer Distância</string>
+    <string name="distance1">2 km</string>
+    <string name="distance2">5 km</string>
+    <string name="distance3">10 km</string>
+    <string name="distance4">15 km</string>
+    <string name="bronzeReward">Recompensa Bronze</string>
+    <string name="silverReward">Recompensa Prata</string>
+    <string name="goldReward">Recompensa Ouro</string>
+    <string name="acceptLoyalties">Você concorda com a política de fidelidade?</string> 
+    <string name="indicatePrizes">Por favor indique quais serão seus prêmios de fidelidade</string>     
+    <string name="mustAcceptLoyalty">Você deve aceitar o sistema de fidelidade para se cadastrar</string> 
+    <string name="jujoValidatedUser">Seu Ponto JuJo foi validado com sucesso!!!!</string>
+    <string name="jujoValidatedGoldUser">Parabéns! Você possui um novo emblema Gold!!!</string>
+    <string name="jujoValidatedSilverUser">Parabéns! Você possui um novo emblema Silver!!!</string>
+    <string name="jujoValidatedBronzeUser">Parabéns! Você possui um novo emblema Bronze!!!</string>
+    <string name="facebook_share_description">Olá! Eu estive em %1$s usando o Street Food EZ!</string>
+    <string name="powerReviews">Usuários Credenciados</string>
+    <string name="userReviews">Usuários</string>
+    <string name="FTRewards">Recompensas</string>
+    <string name="rankedList">Lista Ranqueada</string>
+    <string name="reviewNumber">Comentários</string>
+    <string name="stars">Estrelas</string>
+    <string name="returnPercentage">Retorno</string>
+    <string name="typicalHours">Horario frequente</string>
+    <string name="informTypicalHours">Seu horário frequente:</string>
+    
+    <string name="from">De</string>
+    <string name="to">Até</string>
+    <string name="myProfile">Meu Perfil</string>
+    	//bottom Bar
+<string name="OrderManagement">Gerenciamento de Pedidos</string>
+<string name="Check_In">Check-in</string>
+<string name="MenuManagement">Gerenciamento do Menu</string>
+<string name="MenuAvailability">Disponibilidade do Menu</string>
+<string name="DailySpecials">Especiais do Dia</string>
+<string name="Reports">Relatórios</string>
+<string name="Vendor_Profile">Perfil do Vendedor</string>
+<string name="LoyaltyRewards">Prêmios de Fidelidade</string>
+<string name="Reviews">Comentários</string>
+<string name="BottomBarSearch">Pesquisa</string>
+<string name="BottomBarVendorList">Lista</string>
+<string name="BottomBarLoyalty">Fidelidade</string>
+<string name="BottomBarDailySpecials">Especiais do Dia</string>
+<string name="BottomBarOrders">Pedidos</string>
+//Orders
+<string name="InQueue">Na Fila</string>
+<string name="Cooking">Cozinhando</string>
+<string name="Ready">Pronto</string>
+<string name="OrderPickup">Retirado</string>
+//MapMyFood Controller
+<string name="MapMyFood">Usar minha localização atual</string>
+<string name="TheEasiestWayToOrderFood">O jeito mais fácil de pedir comida</string>
+<string name="SearchByLocation">Pesquisar por localização</string>
+<string name="MapMyFoodPostalCodeComment">Código Postal</string>
+//Map
+<string name="ResultsMapMap">Mapa</string>
+<string name="ResultsMapList">Lista</string>
+<string name="ResultsMapRating">Classificação</string>
+<string name="ResultsMapDetails">Detalhes</string>
+//Search Preference
+<string name="SearchPreferences">Preferências de Pesquisa</string>
+<string name="SPDistance">Distancia</string>
+<string name="SPLocation">Localização</string>
+<string name="SPTags">Tags</string>
+<string name="SPSearch">Pesquisa</string>
+<string name="SPFilter">Filtro</string>
+<string name="SPSaveTheseSearchPreferences">Salvar as Preferências de Pesquisa</string>
+<string name="SPUseMyCurrentLocation">Usar a Minha Localização Atual</string>
+<string name="SPSearchByPostalCode">Pesquisa por Código Postal</string>
+<string name="SPAll">Todos</string>
+<string name="SPTrending">Tendências</string>
+<string name="SPOpenNow">Aberto Agora</string>
+<string name="SPMyFavorites">Meus Favoritos</string>
+<string name="SPTagDescription">ex. Pizza, Hambúrgueres, etc.</string>
+
+<string name="VendorDetailFavorites">Favoritos</string>
+<string name="VDCurrentLocation">Localização Atual</string>
+<string name="VDCurrentStatus">Status Atual</string>
+<string name="VDCurrentDistance">Distancia Atual</string>
+<string name="VDRepeatCustomers">Repetir os clientes</string>
+<string name="VDMapIt">Mapear</string>
+<string name="VDTypicalHours">Horário de Funcionamento</string>
+<string name="VDReviews">Comentários</string>
+<!--<string name="VDMenuOrder">Menu/Pedido</string>-->
+//My Order
+<string name="MenuOrderMyOrder">Meu Pedido</string>
+<string name="MenuOrderCategories">Café da Manhã Jantar Expresso  Acompanhamentos Bebidas</string>
+<string name="MenuItemDetail">Salvar</string>
+
+<string name="PaymentReceipt">Meu Pedido</string>
+<string name="PaymentReceiptTrackOrder">Status do Pedido</string>
+<!--<string name="PaymentReceiptThanks">Obrigado <customer name></string>-->
+<string name="PaymentReceiptPickupTime">Tempo para Retirada</string>
+<string name="PaymentReceiptTimeOfDay">Horário do Dia</string>
+<!--<string name="PaymentReceiptYourPayment">O seu pagamento de <R$> foi recebido</string>>
+<string name="PaymentReceiptHome">Home</string>
+
+<string name="MyOrderPlaceOrder">Fazer Pedido</string>
+<!--<string name="MyOrderMenuOrder">Menu/Pedido</string>-->
+<string name="MyOrderTotal">Total</string>
+<string name="MyOrderSubtotal">Subtotal</string>
+<string name="MyOrderServiceCharge">Menu/Pedido</string>
+<string name="MyOrderTotal">Taxa</string>
+<string name="MyOrderDeliveryCharge">R$5 Valor de Entrega</string>
+<string name="MyOrderPickup">Retirado</string>
+<string name="MyOrderDelivery">Delivery</string>
+<string name="MyOrderPickupTime">Tempo para retirar</string>
+<string name="MyOrderTotal$">R$</string>
+
+<!--<string name="OrderReadyYourOrderIsReady">Seu Pedido # <Número> está pronto</string>-->
+//Rewards and Loyalty
+<string name="OrderReadyNow">Agora</string>
+
+<string name="ViewReviewsReviews">Comentários</string>
+<string name="ViewReviewsPowerReview">Comentário Power</string>
+<string name="ViewReviewsFilterDate">Data</string>
+<string name="ViewReviewsFilterRating">Classificação</string>
+<string name="ViewReviewsFilterPower">Power</string>
+
+<string name="RewardsGold">Ouro</string>
+<string name="RewardsSilver">Prata</string>
+<string name="RewardsBronze">Bronze</string>
+<string name="RewardsPointBalance">Seus Pontos</string>
+<string name="RewardsRedeem">Resgatar</string>
+<string name="RewardsViewDetails">Ver Detalhes</string>
+
+<string name="MyLoyaltyAddReview">Adicionar Comentário</string>
+<string name="MyLoyaltyEditReview">Editar Comentário</string>
+<string name="MyLoyaltyRewards">Prêmios</string>
+<string name="MyLoyaltyMyLoyalty">Fidelidade</string>
+<string name="MyLoyaltyMoreNeeded">pontos necessários</string>
+
+<string name="IndivReviewquestion1">A comida estava gostosa?</string>
+<string name="IndivReviewquestion2">O preço era adequado?</string>
+<string name="IndivReviewquestion3">O menu tinha variedade?</string>
+<string name="IndivReviewquestion4">Você ficou satisfeito?</string>
+<string name="IndivReviewComments">Comentários</string>
+<string name="IndivReviewUploadPicture">Carregar foto</string>
+<string name="IndivReviewSubmitShareOnSocial">Enviar e compartilhar</string>
+<string name="IndivReviewOnlySubmit">Apenas enviar avaliação</string>
+<string name="IndivReviewSlidingScale">Decepcionado Na Média Feliz</string>
+//Daily Specials
+<string name="DailySpecials">Especiais do Dia</string>
+<string name="DailySpecialsOrder">Pedido</string>
+<string name="DailySpecialsFrequency">Frequência</string>
+<string name="DailySpecialsOffer">ex. 2 Cheeseburgers, 2 Batatas Fritas R$8</string>
+<string name="DailySpecialsOffer">2 Tacos, Chips, Refrigerante R$7.99</string>
+<string name="DailySpecialsOffer1">Cheeseburgers pela 1/2 do preço</string>
+<string name="DailySpecialsOffer2">Compre 1 entrada, ganhe uma grátis</string>
+<string name="DailySpecialsOffer3">Bebida grátis com sanduíche e acompanhamento</string>
+<string name="DailySpecialsOffer4">Sanduíche com acompanhamento</string>
+//Order mgt
+<string name="Orders">Pedidos</string>
+<string name="OrdersReOrder">Pedir Novamente</string>
+<string name="OrdersOrderNumber">Pedido nº</string>
+
+<string name="Favorites">Favoritos</string>
+//Check-in
+<string name="CheckInCurrentLocation">Localização Atual</string>
+<string name="CheckInFoodPark">Localização Anterior/Food Park</string>
+<string name="CheckInCurrentStatus">Status Atual></string>
+<string name="CheckInOpenClosed">Aberto</string>
+<string name="CheckInOpenClosed">Fechado</string>
+<string name="CheckInWelcome">Bem-vindo</string>
+<string name="CheckInClosingTime">Hora de Encerramento</string>
+<string name="CheckInTime">Horário de Checkin</string>
+<string name="CheckInSave">Salvar</string>
+<string name="CheckInLocationCheckout"> Localização de Checkout</string>
+<string name="CheckInLocation">Localização</string>
+<string name="CheckInLandmark">Localização / Ponto de Referência</string>
+//Settings
+<string name="SettingsSocial">Redes Sociais</string>
+<string name="SettingsPush">Notificações Push</string>
+<string name="SettingsPushDailySpecials">Especiais do Dia </string>
+<string name="SettingsPushEvents">Eventos</string>
+<string name="SettingsEmail">Email</string>
+<string name="SettingsLocationServices">Serviços de localização</string>
+<string name="SettingsLocationServicesOn">Ativado</string>
+<string name="SettingsLocationServicesOff">Desativado</string>
+<string name="SettingsHome">Visão da Página Inicial</string>
+<string name="SettingsHomeDefault">Padrão (Usar minha localização atual)</string>
+<string name="SettingsHomeDefaultFavorites">Automaticamente Exibir Meus Favoritos</string>
+
+<string name="ReportABug">Reportar um Bug</string>
+<string name="ReportABugText">Hello Bugz</string>
+//Vendor
+//Sign in, create account
+<string name="SignIn">Logar</string>
+<string name="SignInForget">Esqueci a senha/Usuário</string>
+<string name="SignInFBLogin">Entrar com Facebook</string>
+<string name="SignInEmail">Email</string>
+<string name="SignInPassword">Senha</string>
+
+<string name="CreateAccount">Criar Conta</string>
+<string name="CreateAccountFirst">Nome</string>
+<string name="CreateAccountLast">Sobrenome</string>
+<string name="CreateAccountStyle">Selecionar o estilo da sua conta</string>
+<string name="CreateAccountStyleCustomer">Cliente (Eu quero pedir comida)</string>
+<string name="CreateAccountStyleVendor">Vendedor (Eu quero vender comida)</string>
+
+<string name="MainMenuCustomer">Perfil Favoritos Eventos Fidelidade Pesquisar Preferencias Logar Criar Conta</string>
+
+<string name="MainMenuVendor">Check-In Especiais do Dia Disponibilidade do Menu Comentários Criar Conta Login Registre-se</string>
+//Vendor Registration
+<string name="RegistrationVendor">Nome do Vendedor</string>
+<string name="RegistrationStep1">Passo 1</string>
+<string name="RegistrationAddALogo">Adicionar Imagem ou Logo</string>
+<string name="RegistrationAddAPictureOfYourFavoriteDish">Adicionar uma imagem do seu prato favorito</string>
+<string name="RegistrationNext">Próximo</string>
+<string name="RegistrationStep2">Passo 2</string>
+<string name="RegistrationTags">Tags</string>
+<!--Vendor Profile Step2--> <!--ex. Pizza burgers = ex. Pizza burgers-->
+<string name="RegistrationPrevious">Anterior</string>
+<string name="RegistrationStep2Next">Próximo</string>
+<string name="RegistrationStep3">Passo 3</string>
+<string name="whatMakesYouUnique">Conte-nos o que faz de sua comida especial:</string>
+<string name="RegistrationStep3Description">Descrição</string>
+<string name="RegistrationStep3Restaurant">Restaurante</string>
+<string name="RegistrationStep3FoodTruck">Food Truck</string>
+<string name="RegistrationStep3FoodCart">Carrino</string>
+<string name="RegistrationStep4">Step 4</string>
+<string name="RegistrationStep4WeeklySchedule">Agenda Semanal</string>
+<string name="RegistrationStep4TypicalHours">Horários Frequentes</string>
+<string name="RegistrationStep4Facebook">Facebook/Website</string>
+<!--<string name="RegistrationStep4UseFBHours">Utilizar horas disponíveis no Facebook/Website</string>-->
+<string name="RegistrationStep5">Passo 5</string>
+<string name="RegistrationStep5TypicalHours">Horários Frequentes</string>
+<string name="RegistrationStep5CurrentStatus">Status Atual</string>
+<string name="RegistrationStep5CurrentDistance">Distância Atual</string>
+<string name="RegistrationStep5Favorite">Favoritos</string>
+<string name="RegistrationStep5Rating">Classificação</string>
+<string name="RegistrationStep5RepeatCustomers">Clientes Antigos</string>
+<string name="RegistrationStep5Reviews">Comentários</string>
+//Order mgt
+<string name="OrderMgmtScanOrderPickup">Scan Order Pickup</string>
+<string name="OrderMgmtManualOrderPickup">Manual Order Pickup</string>
+<string name="OrderMgmtStatusCooking">Cozinhando</string>
+<string name="OrderMgmtStatusReady">Pronto</string>
+<string name="OrderMgmtStatusInQueue">Na Fila</string>
+<string name="OrderMgmtStatusPickedUp">Retirado</string>
+<string name="OrderMgmtTakeout">Retirado</string>
+<string name="OrderMgmtSelectStatus">Selecionar status</string>
+<string name="OrderMgmtDelivery">Delivery</string>
+<string name="OrderMgmtDeliveryEstimate">Tempo Estimado</string>
+<string name="OrderMgmtDelivery">Delivery</string>
+//Configuration
+<string name="ConfigurationConsumerOrderWindow">Consumidor Pedido Tempo de Espera</string>
+<string name="ConfigurationPrepTimeNotification">Notificação de tempo de preparo</string>
+<string name="ConfigurationDeliveryTime">Tempo de Entrega</string>
+<string name="ConfigurationDeliveryCharge">Taxa de Entrega</string>
+<string name="ConfigurationFoodParkManaged">Gerenciado pelo Food Park</string>
+	
+	<string name="Loyalty">Loyalty</string>
+	<string name="AlokPatil">Alok Patil</string>
+	<string name="GotoVendor">Go to Vendor</string>
+	<string name="PacoTacaos">Paco's Tacaos</string>
+	<string name="Reporting">Reporting</string>
+	<string name="GotoConsumer">Go to Consumer</string>
+	<string name="Configuration">Configuration</string>
+	<string name="Theeasywaytoorderstreetfood">The easy way to order street food</string>
+	<string name="MapRoute">Map Route</string>
+	<string name="PaymentAmount">Payment Amount:</string>
+	<string name="CardNumber">Card Number</string>
+	<string name="ExpirationDate">Expiration Date</string>
+	<string name="CardHolderName">Card Holder Name</string>
+	<string name="Entercardholdername">Enter card holder name</string>
+	<string name="IamaVendorandwouldliketosellfood">I am a Vendor and would like to sell food</string>
+	<string name="TermsandConditions">Terms & Conditions</string>
+	<string name="MaxicanCarneAsadaSalads">Maxican, Carne Asada, Salads</string>
+	<string name="TypicalHours">Typical Hours: </string>
+	<string name="CurrentStatus">Current Status: </string>
+	<string name="Rating">Rating: </string>
+	<string name="CurrentDistance">Current Distance: </string>
+	<string name="CurrentLocation">Current Location: </string>
+	<string name="exdollarsetc">ex. $5, $6, etc...</string>
+	<string name="Entercardnumber">Enter card number</string>
+	<string name="ExtraBeef">Extra Beef</string>
+	<string name="SMSWhatsApp">SMS/WhatsApp</string>	
+	<string name="MENUORDER">MENU/ORDER</string>	
+	<string name="CVVCVC">CVV/ CVC</string>
+	 <string name="BeefTacos">Beef Tacos</string>
+	<string name="TellusAboutYourExperience">Tell us About Your Experience!</string>
+	<string name="Very">Very</string>
+	<string name="VeryHappy">Very Happy</string>
+	<string name="IndivReviewquestionques">IndivReviewquestion?</string>
+	
+</resources>

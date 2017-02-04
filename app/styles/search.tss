@@ -1,0 +1,38 @@
+"#searchScroller": {
+	layout: "vertical",
+	backgroundColor: Alloy.Globals.windowBackgroundColor,
+	bottom: Alloy.Globals.bottomNavigatorHeight,
+	top: 0
+},
+".mainViewSearch": {
+	top: 0,
+	bottom: Alloy.Globals.bottomNavigatorHeight,
+	width: Titanium.UI.FILL,
+	// backgroundColor: Alloy.Globals.windowBackgroundColor,
+	backgroundColor: Alloy.Globals.windowBackgroundLight,
+	zIndex: 2
+}
+"#pricingPicker": {
+	right: Alloy.Globals.navigatorIconPadding
+},
+"#tagsContainer":{
+	height: Ti.UI.SIZE,
+	top: 20,
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding
+},
+"#tagWidget":{
+	height: Ti.UI.SIZE
+},
+"#distanceSlider": {
+	height: Ti.UI.SIZE,
+	width: "60%",
+	left: Alloy.Globals.navigatorIconPadding
+},
+
+"#distanceLabel": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	width: "30%",
+	right: Alloy.Globals.navigatorIconPadding
+},

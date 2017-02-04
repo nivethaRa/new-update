@@ -1,0 +1,138 @@
+".lblcls":{
+	top: 5,
+	font: {
+		fontSize: 24,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+},
+
+// Edited by Aryvart - Open
+/*
+"#foodParkName":{
+	top: 25,
+	left: 30,
+	wordWrap: false,
+	ellipsize: true,
+	maxLines: "1",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	right: 5
+}
+*/
+"#foodParkName":{
+	top: 25,
+	left: 30,
+	width: "90%",
+	maxLines: "5",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	right: 5
+}
+// Edited by Aryvart - Closed
+
+".blkLbl":{
+	top: 35,
+	font: {
+		fontSize: 13,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+}
+
+"#pcsLbl":{
+	top: 25,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000"
+}
+
+"#status":{
+	top: 25,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "gray"
+}
+
+"#welcome":{
+	top: 20,
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "gray"
+}
+
+"#checkin":{
+	top: 5,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "gray"
+}
+
+
+".foodParkBtn": {
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: "#A01F63",
+	borderColor: "#A01F63",
+	height: Alloy.Globals.defaultButtonHeight,
+	left: 30,
+	height: 45,
+	borderWidth: 3,
+	width: 265,
+	top: 10,
+	borderRadius: 2
+},
+
+".sapLine": {
+	backgroundColor: "#FFF",
+	left: 0,
+	height: 45,
+	top: 10,
+	width: 1
+},
+
+"#downArrow":{
+	backgroundColor: "#A01F63",
+	left: 0,
+	width: 35,
+	height: 45,
+	top: 10,
+	title: "V",
+	color: "#FFF",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	}
+}
+
+"#jujoimg":{
+	top: 0,
+	width: 100,
+	height: 100,
+	image: "/images/consumerordering/food truck-01.png"
+},
+

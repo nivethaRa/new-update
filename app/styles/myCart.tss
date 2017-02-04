@@ -1,0 +1,60 @@
+"#myCartWin":{
+	theme: 'Theme.NoActionBar'
+}
+"#middleView":{
+	top: 250
+},
+"#myCartTable":{
+	// height: 250,
+	bottom: 0,
+	top: 0,
+	left: 0,
+	right: 0,
+	layout: "vertical"
+},
+".createActLbl":{
+	left: 15,
+	top: 10,
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+
+
+".mainCartView": {
+	layout: "vertical",
+	top: 0,
+	bottom: 0,
+	width: Titanium.UI.FILL,
+	// backgroundColor: Alloy.Globals.windowBackgroundColor,
+	backgroundColor: Alloy.Globals.windowBackgroundLight
+},
+"#backListViewIcon": {
+	image: "/images/consumerordering/ic_arrow_back_black_48dp.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	}
+}
+"#my_order":{
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+"#selectedMenuItemList":{
+	top: 0,
+	separatorColor: "transparent",
+	separatorStyle: "NONE",
+	width:Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+"#section":{}

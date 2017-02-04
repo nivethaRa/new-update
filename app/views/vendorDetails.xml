@@ -1,0 +1,77 @@
+<Alloy>
+	<Window id="win">
+		<RightNavButton >
+			<Button onClick="checkOutNavButtonHandler" backgroundImage="images/checkout.png"></Button>
+		</RightNavButton>
+		<View class="navigator" height="55" backgroundColor="#68c7c7">
+			<ImageView id="backListViewIcon" onClick="closeWindow" />
+			<Label id="winTitle" text="L('PacoTacaos')"/>
+			<View id="goToMyOrderView" onClick="goToMyOrder">
+				<View id="cartView">
+					<ImageView id="cartIcon"/>
+					<Label id="cartLabel"/>
+				</View>
+			</View>
+		</View>
+		<ScrollView id="vendorListView" class="container">
+			
+			  // Edited by Aryvart - Open
+			<!--<ImageView id = "vendorPhoto" class="firstPic" />-->
+			<ImageView id = "vendorPhoto" class="firstPic"/>
+			  // Edited by Aryvart - Closed
+			<View class="cl heightSize" >
+				<View id="leftView">
+					<Label id="titelLbl" class="ellipsizeLabel"/>
+					<Label id="subTitelLbl" class="H2Lbl ellipsizeLabel" text="L('MaxicanCarneAsadaSalads')" font="Raleway" />
+					<Label id="detailsLbl" color="black" font="Raleway"  width="90%" height=Ti.UI.SIZE/>
+					<Label id="linkLbl" class="H2BoldLbl makeUrl top5 ellipsizeLabel"  font="Raleway" text="www.pacostacosmexeria.com"/>
+				</View>
+				<View id="rightView">
+					<ImageView id="favImg" onClick="openFavScreen" />
+					<ImageView id="busImg"  />
+				</View>
+			</View>
+			<View class="saperatorLight top10"/>
+			<View class="cl heightSize" >
+				<View id="leftView2">
+					<View layout="horizontal" height="Ti.UI.SIZE">
+						<Label id="hrsLbl" class="lableClass heightSize" text="L('TypicalHours')"/>
+						<Label id="hrsValue" class="lableValueClass heightSize"/>
+					</View>
+					<View layout="horizontal" height="Ti.UI.SIZE">
+						<!--<Label id="statusLbl" class="lableClass heightSize" text="L('CurrentStatus')"/>-->
+						<Label id="statusLbl" class="lableClass heightSize" text="Status: "/>
+						<!--<Label id="statusValue" class="lableValueClass heightSize" text="Open until 7 pm"/>-->
+						<Label id="statusValue" class="lableValueClass heightSize"/>
+					</View>
+				</View>
+				<View id="rightView2">
+					<View layout="horizontal" height="Ti.UI.SIZE">
+						<Label id="ratingLbl" class="lableClass heightSize" text="L('Rating')"/>
+						<Label id="ratingValueLbl" class="lableValueClass heightSize" text="-/5.0"/>
+					</View>
+					<!--<Label id="repeatLbl" font="Raleway" class="H2BlkLbl heightSize top10" text="repeat customers 32%" />-->
+					<Label id="reviewsLbl" font="Raleway" class="H2BoldLbl right5 top5" onClick="openReviews" />
+				</View>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE">
+				<View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+					<!--<Label id="distanceLbl" class="lableClass heightSize" text="L('CurrentDistance')"/>-->
+					<Label id="distanceLbl" class="lableClass heightSize" text="Distance: "/>
+					<Label id="distanceValueLbl" class="lableValueClass heightSize" text="4.5/5.0"/>
+				</View>
+				<Label id="mapItLbl" font="Raleway" class="H2BoldLbl right5 top5"/>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE">
+				<!--<Label id="locationLbl" class="lableClass heightSize" text="L('CurrentLocation')"/>-->
+				<Label id="locationLbl" class="lableClass heightSize" text="Location :"/>
+				<Label id="locationValueLbl" class="lableValueClass heightSize ellipsizeLabel" text="Truck Garden Food Park"/>
+			</View>
+			<View class="cl heightSize" >
+				<ImageView id="menuImg"/>
+				<Label id="menuorderLbl" font="Raleway" onClick="openMenuOrder"/>
+			</View>
+			<View class="saperatorLight top10"/>
+		</ScrollView>
+	</Window>
+</Alloy>

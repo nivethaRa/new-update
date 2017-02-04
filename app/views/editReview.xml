@@ -1,0 +1,54 @@
+<Alloy>
+	<Window id="editReviewWin" class="containerLight"  title="Edit Review" backgroundColor="#EDEDE6">
+		<View id="editReviewView" class="navigator">
+			<ImageView id="mainMenuIcon" class="navigatorIcon" onClick="closeEditReviewWin" />
+			<Label text="L('sfez')" class="windowTitle" />
+		</View>
+		<ScrollView id="menuItemDetailsView" class="mainView vl" width="100%" height="100%">
+			<ImageView id="itemPic"  />
+			<Label  class="titleBlkLbl top15" text="L('BeefTacos')"/>
+			<Label  class="subLbl" text="L('TellusAboutYourExperience')"/>
+			<View class="heightSize top10 vl bgColorGray">
+				<Label  class="catHLbl top5" text="L('IndivReviewquestion1')"/>
+				<Slider id="distanceSlider" class="slidr"/>
+				<View class="heightSize cl">
+					<Label  class="ratLbl  left15" text="L('IndivReviewSlidingScale')"/>
+					<!-- <Label  class="ratLbl " left="45%" text="Average"/> -->
+					<Label  class="ratLbl  right15" text="Very"/>
+				</View>
+				<View class="saperatorLight top5" />
+				<Label  class="catHLbl top5" text="L('IndivReviewquestion2')"/>
+				<Slider id="distanceSlider" class="slidr"/>
+				<View class="heightSize cl">
+					<Label  class="ratLbl  left15" text="L('IndivReviewSlidingScale')"/>
+					<!-- <Label  class="ratLbl " left="45%" text="Average"/> -->
+					<Label  class="ratLbl  right15" text="Very"/>
+				</View>
+				<View class="saperatorLight top5" />
+				<Label  class="catHLbl top5" text="L('IndivReviewquestion3')"/>
+				<Slider id="distanceSlider" class="slidr"/>
+				<View class="heightSize cl">
+					<Label  class="ratLbl  left15" text="L('IndivReviewSlidingScale')"/>
+					<!-- <Label  class="ratLbl " left="45%" text="Average"/> -->
+					<Label  class="ratLbl  right15" text="Very"/>
+				</View>
+				<View class="saperatorLight top5" />
+				<Label  class="catHLbl top5" text="L('IndivReviewquestionques')"/>
+				<Slider id="distanceSlider" class="slidr"/>
+				<View class="heightSize cl">
+					<Label  class="ratLbl  left15" text="L('IndivReviewSlidingScale')"/>
+					<!-- <Label  class="ratLbl " left="45%" text="Average"/> -->
+					<Label  class="ratLbl  right15" text="L('VeryHappy')"/>
+				</View>
+				<View class="saperatorLight top5" />
+				<Label  class="catHLbl top15" text="L('IndivReviewComments')"/>
+				<TextArea id="commentTA"/>
+				<!-- <Label  class="ratLbl" text="140 charactor left"/> -->
+				<Label  class="titleBlkLbl top10" text="L('IndivReviewUploadPicture')"/>
+				<ImageView id="editReviewPic" class="profilePic" onClick="setPicture" />
+				<Button title="L('IndivReviewSubmitShareOnSocial')" class="submitShareBtn  "/>
+				<Button title="L('IndivReviewOnlySubmit')" class="submitBtn"/>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

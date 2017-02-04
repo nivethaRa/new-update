@@ -1,0 +1,15 @@
+"#backMenuIcon" : {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding,
+}
+
+
+"#qrCode" : {
+	width: 150,
+	height: 150
+}
+
+".mainView": {
+	layout: "absolute",
+	top: 0
+}

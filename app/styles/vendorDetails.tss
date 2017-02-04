@@ -1,0 +1,160 @@
+"#win":{
+	theme: 'Theme.NoActionBar',
+	backgroundColor: '#fff',
+	layout: "vertical"
+}
+".firstPic": {
+	/*image: "/images/consumerordering/food truck-01.png",*/
+	top: 5,
+	height: 150
+}
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width: "100%",
+	left: 0,
+	bottom: 0,
+	right: 0
+},
+
+"#titelLbl":{
+	text: "Pacos Tacos",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Raleway',
+		fontWeight: "Medium"
+	},
+	color: "#000",
+	left: 10,
+},
+
+"#leftView":{
+	layout: "vertical",
+	top: 0,
+	left: 0,
+	width: "80%",
+	height:Ti.UI.SIZE
+},
+"#rightView":{
+	layout: "vertical",
+	top: 0,
+	right: 0,
+	width: "15%",
+	height:Ti.UI.SIZE
+},
+
+"#leftView2":{
+	layout: "vertical",
+	top: 0,
+	left: 0,
+	width: "65%",
+	height:Ti.UI.SIZE
+},
+"#rightView2":{
+	top: 0,
+	right: 0,
+	width: "35%",
+	height:Ti.UI.SIZE,
+	layout: "vertical"
+},
+
+"#menuImg":{
+	top: 15,
+	left: 0,
+	right: 0,
+	height: 190,
+	image: "/images/pizz.jpeg"
+},
+
+"#menuorderLbl":{
+	textAlign: "center",
+	text: L("MENUORDER"),
+	height: "30",
+	width: "150",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	borderColor: "#FFF",
+	color: "#FFF",
+	borderWidth: 1.5,
+	borderRadius: 2,
+	backgroundColor: "#000",
+	opacity: 0.7
+},
+
+"#favImg":{
+	top: 10,
+	image:"/images/favorite.png",
+	height: 45,
+	width: 35
+},
+
+"#busImg":{
+	top: 28,
+	image: "/images/consumerordering/food truck-01.png",
+	height: 25,
+	width: 30
+},
+"#backListViewIcon": {
+	image: "/images/consumerordering/ic_arrow_back_black_48dp.png",
+	left: Alloy.Globals.navigatorIconPadding
+},
+"#winTitle":{
+	//left: 55,
+	color: "#000",
+	textAlign: "left",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Regular'
+	}
+}
+"#goToMyOrderView":{
+	right: 10,
+	height: Ti.UI.FILL,
+	width: Ti.UI.SIZE
+}
+
+"#cartIcon":{
+	image: "/images/consumerordering/cart.png",
+	bubbleParent: true,
+	height: 30,
+	width: 30
+}
+"#cartView":{
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	right: 10
+}
+"#cartLabel":{
+	font: {
+		fontSize: 12,
+		fontFamily: 'Regular'
+	},
+	text: "Cart",
+	color: "#000",
+	top: -4,
+	zIndex: 1
+}
+".lableClass":{
+	top: 5,
+	font: {
+		fontSize: 13,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000",
+	left: 10
+}
+".lableValueClass":{
+	top: 5,
+	font: {
+		fontSize: 13,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "light"
+	},
+	color: "#515151",
+	left: 0
+}

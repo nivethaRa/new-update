@@ -1,0 +1,10 @@
+<Alloy>
+	<View class="mainView" >
+		<ImageView id="jujoimg"/>
+		<Label text="Paco's Tacos" id="pcsLbl"/>
+		<Button title="LOCATION CHECK OUT" class="loginButton top25" onClick="locationCheckout" />
+		<Label id="status" text="Current status" />
+		<Label text="OPEN" class="lblcls"/>
+		<Label id="foodParkName" text="10 & Alder Partland 98201" />
+	</View>
+</Alloy>

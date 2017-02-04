@@ -1,0 +1,68 @@
+
+
+"#logo": {
+	image: "/SFEZLOGO.png",
+	top: 30,
+	width: 250
+},
+
+"#termsCondition":{
+	bottom: 5,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	text: L("TermsandConditions"),
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+},
+
+".loginField": {
+	top: 15,
+	left: 30,
+	right: 30,
+	height: 40,
+	borderRadius: 2,
+	backgroundColor: Alloy.Globals.fieldBackground,
+	font: {
+		fontSize: 12,
+		fontFamily: 'Regular',
+	},
+}
+
+"#first_name": {
+	hintText: L("first_name"),
+	hintTextColor: "gray"
+}
+"#last_name":{
+	hintText: L("last_name"),
+	hintTextColor: "gray"
+}
+"#email": {
+	hintText: L("email_example"),
+	hintTextColor: "gray"
+}
+
+"#password": {
+	hintText: L("password"),
+	hintTextColor: "gray",
+	passwordMask: true
+}
+"#password_confirmation":{
+	hintText: L("password_confirmation"),
+	hintTextColor: "gray",
+	passwordMask: true
+}
+"#company_name":{
+	hintText: L("RegistrationVendor"),
+	hintTextColor: "gray"
+}
+
+
+
+"#loginLink": {
+	bottom: 20,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4
+}

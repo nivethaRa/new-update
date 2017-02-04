@@ -1,0 +1,20 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2
+apiversion: 2
+description: Simple yet powerful API for Android GCM push notifications
+author: jordi domenech
+license: Apache License, Version 2.0
+copyright: Copyright (c) 2013 by iamyellow.net
+
+
+# these should not be edited
+name: gcmjs
+moduleid: net.iamyellow.gcmjs
+# prod: guid: 096c760a-e0bb-44a2-af5b-0966ace60ddb
+# dev:  guid: CB011119-D3F0-4765-AF29-89349F8C8FEB
+guid: 096c760a-e0bb-44a2-af5b-0966ace60ddb
+platform: android
+minsdk: 3.0.2.GA

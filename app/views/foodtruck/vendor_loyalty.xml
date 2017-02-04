@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="loyaltyRewardsView" class="container">
+		<View id="topView" top="0">
+			<View class="hView">
+				<Label id="loyaltyH" class="loyaltyH" text="LOYALTY" onClick="openLoyalty"/>
+				<View id="baseLineLoyal" class="baseLineMy" />
+			</View>
+			<View class="hView">
+				<Label id="rewatdsH" class="rewatdsH" text="REVIEWS" onClick="openRewards"/>
+				<View id="baseLineReward" class="baseLine" />
+			</View>
+		</View>
+		<View left="0" right="0" top="0" bottom="0">
+			<TableView id="loyaltyTable" class="tableSapColor"/>
+			<TableView id="reviewsViewTable" class="tableSapColor"/>
+			<!-- <TableView id="rewardsTable" class="tableSapColor"/> -->
+		</View>
+	</View>
+</Alloy>

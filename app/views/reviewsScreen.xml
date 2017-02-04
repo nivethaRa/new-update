@@ -1,0 +1,19 @@
+<Alloy>
+	<Window  titleImage="images/appicon.png" id="win" title="Reviews">
+	<View id="reviewsView" class="container">
+		<View id="reviewsRat" top="0">
+			<Label id="reviwsLbl" text="L('Reviews')" />
+			<Label id="ratLbl" text="4.7/5.0" />
+		</View>
+		<View id="filterView">
+			<Label id="dateLbl" class="filtrLbl left10" text="L('ViewReviewsFilterDate')" />
+			<ImageView  class="dropDown" />
+			<Label id="dateLbl" class="filtrLbl left160" text="L('ResultsMapRating')" />
+			<ImageView  class="dropDown" />
+			<Label id="dateLbl" class="filtrLbl left160" text="L('ViewReviewsFilterPower')" />
+			<ImageView  class="dropDown" />
+		</View>
+		<TableView id="reviewsViewTable" class="tableSapColor" />
+	</View>
+	</Window>	
+</Alloy>

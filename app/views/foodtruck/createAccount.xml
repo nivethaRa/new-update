@@ -1,0 +1,25 @@
+<Alloy>
+	<Window  titleImage="images/appicon.png" id="win" title="">
+	<View id="actWin" class="mainView">
+		<ScrollView id="scroll">
+			<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+			<Label class="createActLbl" />
+			<TextField id="fName" class="loginField" />
+			<TextField id="lName" class="loginField" />
+			<TextField id="email" class="loginField" />
+			<Label class="selectLbl" />
+			<View class="heightSize top0 hl">
+				<ImageView id="fstRadio" isChecked="true" class="radioBtn top5 left50" onClick="fstRadioCliked" />
+				<Label  class="itemLbl top5 left10 heightSize" text="Customer (I want to order food)"/>
+			</View>
+			<View class="heightSize top0 hl">
+				<ImageView id ="sndRadio" isChecked="false" class="radioBtn top5 left50" onClick="sndRadioCliked" />
+				<Label  class ="itemLbl top5 left10 heightSize" text="Vendor (I want to sell food)"/>
+			</View>
+			<Button id="login" title="L('createAccount')" class="actButton" onClick="createAccoutTruckClicked" />
+			<View id="othersLogin"></View>
+			<!-- <Label  id="termsCondition" text="Terms & Conditions" onClick="termsConditionClicked"/> -->
+		</ScrollView>
+	</View>
+	</Window>
+</Alloy>

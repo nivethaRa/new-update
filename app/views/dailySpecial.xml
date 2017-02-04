@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="win">
+	<View id="specialView" class="mainView">
+		<TableView id="specialTable" class="tableSapColor"/>
+	</View>
+	</View>
+</Alloy>

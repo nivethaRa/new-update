@@ -1,0 +1,40 @@
+"#questions": {
+  layout: "vertical",
+  width: Titanium.UI.FILL,
+  height: Titanium.UI.SIZE
+}
+
+".questionContainer": {
+  width: Titanium.UI.FILL,
+  height: Titanium.UI.SIZE,
+  bottom: 10,
+  top: 10
+}
+
+".questionLabel": {
+  width: "60%",
+  height: 48,
+  left: Alloy.Globals.navigatorIconPadding,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: Alloy.Globals.lightTextColor,
+	wordWrap: true
+}
+
+".questionSwitch": {
+  right: Alloy.Globals.navigatorIconPadding,
+  width: "35%",
+  value: true
+}
+
+".questionSlider": {
+  right: 30,
+  min: 0,
+  max: 5,
+  width: 100,
+  value: 5
+}
+
+".questionSliderLabel": {
+  right: Alloy.Globals.navigatorIconPadding,
+  text: 5
+}

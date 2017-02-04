@@ -1,0 +1,79 @@
+"#mainView":{
+	backgroundColor: Alloy.Globals.windowBackgroundLight,
+	left: 0,
+	right: 0,
+	top: 0,
+	bottom: 0
+}
+"#scroll": {
+	top: 0,
+	width: Ti.UI.FILL,
+	contentWidth: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	contentHeight: Ti.UI.FILL,
+	layout: "vertical"
+}
+"#scroll[platform=android]": {
+	contentHeight: Ti.UI.SIZE,
+	bottom: 65
+}
+".menuButton":{
+	height: 30,
+	width: 30,
+	backgroundColor: "transparent",
+	backgroundImage: "images/tabicons/menu.png"
+}
+
+"#divLabel": {
+	width: "20%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#divLeft": {
+	height: 3,
+	left: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+"#divRight": {
+	height: 3,
+	right: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+".loginField": {
+	left: 30,
+	right: 30,
+	height: 40,
+	borderRadius: 2,
+	backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+	passwordMask: true
+}
+
+"#login": {
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.lightTextColor
+}
+
+"#othersLogin": {
+	height: 50,
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.normalTextColor
+}
+
+"#register": {
+	left: 30,
+	right: 30,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4,
+	color: Alloy.Globals.normalTextColor,
+	width: Titanium.UI.FILL,
+	height: 50
+}

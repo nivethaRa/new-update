@@ -1,0 +1,57 @@
+"#logo": {
+  image: "/SFEZLOGO.png",
+  height: 128
+}
+
+"#tagWidget" :{
+	height: Ti.UI.SIZE,
+}
+
+"#tagsContainer" :{
+	height: Ti.UI.SIZE,
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+}
+
+"#pricingSlider" : {
+	height: Ti.UI.SIZE,
+	width: "60%",
+	left: Alloy.Globals.navigatorIconPadding,
+}
+
+"#hoursPickers" : { 
+	height: Ti.UI.SIZE,
+	layout: "horizontal",
+}
+
+".hoursPicker" : {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	left: Alloy.Globals.navigatorIconPadding,	
+}
+
+".hourPicker" : {
+	height: Ti.UI.SIZE,
+	left: Alloy.Globals.navigatorIconPadding,
+}
+
+"#rewardContainer" : {
+	height: 0,	
+	width: Ti.UI.FILL,
+}
+
+"#loyaltySwitch" : {
+	right: Alloy.Globals.navigatorIconPadding,
+}
+
+"#pricingLabel" : {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	width: "30%",
+	right: Alloy.Globals.navigatorIconPadding, 
+}
+
+"#pricingComponents" : {
+	height: Ti.UI.SIZE,
+}

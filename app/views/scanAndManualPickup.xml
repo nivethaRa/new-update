@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="hazeViewContainer" title="">
+		<View id="popupContainer" onClick = "clickOutSide">
+			<View id="popupBox">
+			</View>
+		</View>
+	</Window>
+</Alloy>

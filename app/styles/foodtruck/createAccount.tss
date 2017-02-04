@@ -1,0 +1,103 @@
+".container": {
+	layout: "vertical"
+}
+
+"#scroll": {
+	layout: "vertical",
+	showVerticalScrollIndicator: false,
+	showHorizontalScrollIndicator: true
+}
+
+"#divView": {
+	height: 30,
+	left: 30,
+	right: 30
+}
+
+"#divLabel": {
+	width: "20%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#divLeft": {
+	height: 3,
+	left: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+"#divRight": {
+	height: 3,
+	right: 0,
+	width: "40%",
+	backgroundColor: Alloy.Globals.darkTextColor
+}
+
+".loginField": {
+	top: 10,
+	left: 30,
+	right: 30,
+	height: 40,
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+	passwordMask: true
+}
+
+
+"#othersLogin": {
+	top: 20,
+	height: 50,
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.normalTextColor
+}
+
+"#register": {
+	top: 30,
+	left: 30,
+	right: 30,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4,
+	color: Alloy.Globals.normalTextColor
+},
+
+".createActLbl":{
+	textAlign: "center",
+	top: 10,
+	text: L('CreateAccount'),
+	font: {
+		fontSize: 22,
+		fontFamily: 'Regular'
+	},
+	color: Alloy.Globals.normalTextColor
+}
+
+".selectLbl":{
+	left: 30,
+	top: 10,
+	text: "L('CreateAccountStyle')",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.darkTextColor
+},
+".actButton": {
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	height: Alloy.Globals.defaultButtonHeight,
+	width: "60%",
+	top: 10,
+	borderRadius: Alloy.Globals.textFieldBorderRadius
+},
+

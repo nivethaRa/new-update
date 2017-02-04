@@ -1,0 +1,89 @@
+<Alloy>
+	<Window class="container">
+			<View id="backMenuIconView" class="navigator" >
+				<ImageView id="backMenuIcon" class="navigatorIcon" />
+				<Label text="L('sfez')" class="windowTitle" />
+			</View>
+			<ScrollView id="menuScroller" class="mainView">
+				<View class="tableRow">
+					<ImageView id="profileImage" />
+					<ActivityIndicator id="menuActivityIndicator" message="L('loading')"/>
+					<Label id="FTname" class="username" />
+					<View class="smallDivisor"></View>
+					<View id="starsDesc">
+						<Widget id="starwidget" src="starrating" max='5' initialRating='0'/>
+					</View>
+					<Label id="FTDescription" class="defaultLabel"/>
+
+					<View id="statusDescContainer">
+						<View id="statusDesc">
+							<View class="statusItem">
+								<ImageView id="price" />
+								<Label id="FTPrice" class="statusValue" />
+							</View>
+							<View class="statusItem">
+								<ImageView class="statusGoldBadge" />
+								<Label text="--" id="statusGoldBadgeLabel" class="statusValue" />
+							</View>
+							<View class="statusItem">
+								<ImageView class="statusSilverBadge" />
+								<Label text="--" id="statusSilverBadgeLabel" class="statusValue" />
+							</View>
+							<View class="statusItem">
+								<ImageView class="statusBronzeBadge" />
+								<Label text="--" id="statusBronzeBadgeLabel" class="statusValue" />
+							</View>
+							<View class="statusItem">
+								<ImageView class="returnPercentage" />
+								<Label text="--" id="returnPercentageLabel" class="statusValue" />
+							</View>
+						</View>
+					</View>
+				</View>
+
+
+				<ActivityIndicator id="reviewsActivityIndicator" message="('loading')"/>
+					<Label text="L('powerReviews')" class="defaultLabel"/>
+					<ScrollableView id="powerReviews">
+					</ScrollableView>
+					<Label text="L('userReviews')" class="defaultLabel"/>
+					<ScrollableView id="reviews">
+					</ScrollableView>
+
+				<View class="smallDivisor space"></View>
+				<Label text="L('FTRewards')" class="defaultLabel"/>
+				<View id="rewardView">
+					<View class="rewardItem">
+						<ImageView class="goldBadge reward" />
+						<Label text="--" id="goldRewardLabel" class="defaultLabel" />
+					</View>
+					<View class="rewardItem">
+						<ImageView class="silverBadge reward" />
+						<Label text="--" id="silverRewardLabel" class="defaultLabel" />
+					</View>
+					<View class="rewardItem">
+						<ImageView class="bronzeBadge reward" />
+						<Label text="--" id="bronzeRewardLabel" class="defaultLabel" />
+					</View>
+				</View>	
+
+			</ScrollView>
+			<View class="bottomNavigator">
+				<View class="bottomNavigatorDivisor"></View>
+				<View class="bottomNavigatorIconViewLarge" id="requestJujoView">
+					<ImageView id="requestJujo" class="navigatorIconSmall" />
+					<Label text="L('requestJujo')" class="navigatorLabelLarge" />
+				</View>
+
+				<View class="bottomNavigatorIconViewLarge" id="createReviewButtonView" >
+					<ImageView id="createReviewButton" class="navigatorIconSmall"/>
+					<Label text="L('createReview')" class="navigatorLabelLarge" />
+				</View>
+
+				<View class="bottomNavigatorIconViewLarge" id="shareFacebookView">
+					<ImageView id="shareFacebook" class="navigatorIconSmall" />
+					<Label text="L('shareFacebook')" class="navigatorLabelLarge"/>
+				</View>
+			</View>
+	</Window>
+</Alloy>

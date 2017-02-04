@@ -1,0 +1,18 @@
+<Alloy>
+	<Window fullscreen="false" class="container">
+		<Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/>
+		<!-- <Menu>
+		<MenuItem id="item2" title="Search" visible="false"/>
+		<MenuItem id="item1" title="cart" icon="/images/checkoutNew.png" onClick="openCart" />
+		</Menu> -->
+		<ScrollableView id="mainScrollableView">
+			<View id="mainBaseView">
+				<View id="mainMenuIconView" platform="ios"  class="navigator">
+					<ImageView id="mainMenuIcon" class="navigatorIcon" onClick="NavSlider" />
+					<Label text="L('sfez')" class="windowTitle" />
+				</View>
+				<View id="baseHomeView" backgroundColor="pink" ></View>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>

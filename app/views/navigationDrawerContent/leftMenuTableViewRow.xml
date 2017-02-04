@@ -1,0 +1,11 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View id="separator2"/>
+		<View  layout="horizontal" touchEnabled="false">
+			<View width="55" left="5%">
+				<ImageView id="menu_icon"/>
+			</View>
+			<Label id="rowTextLabel"/>
+		</View>
+	</TableViewRow>
+</Alloy>

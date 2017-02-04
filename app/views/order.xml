@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="orderListView" class="container">
+		<Label text="L('Orders')" class="H1BlkLbl top10" />
+		<View class="saperatorLight top10"/>
+		<TableView id="orderListTable" class="tableSapColor"/>
+	</View>
+</Alloy>

@@ -1,0 +1,128 @@
+"#pcsLbl":{
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+}
+
+".lblcls":{
+	top: 5,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+},
+
+".lblclose":{
+	top: 5,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor2
+}
+
+"#mapV":{
+	height: 250,
+	width:Ti.UI.FILL,
+	top: 0,
+	backgroundColor: Alloy.Globals.mapsBackgroundColor
+}
+
+// Edited by Aryvart - Open
+/*
+"#foodParkName":{
+	top: 25,
+	left: 30,
+	wordWrap: false,
+	ellipsize: true,
+	maxLines: "1",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	right: 5
+}
+*/
+"#foodParkName":{
+	top: 25,
+	left: 30,
+	width: "90%",
+	maxLines: "5",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	right: 5
+}
+// Edited by Aryvart - Closed
+
+".saveButton": {
+	top: 15,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	width: 140,
+	height: 45,
+	borderWidth: 3,
+	color: "#FFF",
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	borderRadius: 2
+}
+
+".chickinPicker":{
+	top: 5,
+	left: 15,
+	borderWidth: 0,
+	selectionIndicator: "true",
+	useSpinner: "true",
+	width: 350,
+	height: 110,
+	//backgroundColor: Alloy.Globals.mapsBackgroundColor,
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	}
+}
+
+".container": {
+	backgroundColor:Alloy.Globals.windowBackgroundLight
+}
+
+"#column1":{
+	width: 100,
+	left: 15,
+	borderWidth: 0,
+	backgroundColor: "transparent"
+}
+"#column2":{
+	width: 100,
+	borderWidth: 0,
+	backgroundColor: "transparent"
+}
+"#column3":{
+	width: 100,
+	borderWidth: 0,
+	backgroundColor: "transparent"
+}
+"#picker":{
+	top: 5,
+	height: Ti.UI.SIZE,
+	type: Ti.UI.PICKER_TYPE_TIME,
+	backgroundColor: "#888888",
+	left: 30,
+	right: 30,
+	value: '2022-02-29 15:30:00 +0000',
+	height: Titanium.UI.SIZE
+}

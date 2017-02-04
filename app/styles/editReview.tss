@@ -1,0 +1,120 @@
+"#leftView":{
+	top: 0,
+	left: 0,
+	layout: "vertical",
+	height:Ti.UI.SIZE,
+	width: "75%"
+}
+
+"#rightView":{
+	top: 0,
+	right: 0,
+	// layout:"vertical",
+	height:Ti.UI.SIZE,
+	width: "25%"
+},
+
+"#itemPic":{
+	top: 60,
+	image: "/images/jujoman.png",
+	height: 80,
+	width: 80
+},
+
+".titleBlkLbl":{
+	top: 5,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+},
+".subLbl":{
+	top: 5,
+	font: {
+		fontSize: 12,
+		fontFamily: 'Lucida Grande'
+	},
+	color: Alloy.Globals.buttonColor3
+}
+
+".catHLbl":{
+	top: 5,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+}
+
+
+"#mainMenuIcon": {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+},
+".slidr":{
+	left: 15,
+	right: 15,
+	top: 8,
+	height:30,
+},
+
+".ratLbl":{
+	top: 5,
+	font: {
+		fontSize: 13,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+},
+"#commentTA":{
+	borderWidth: 1,
+	borderColor: "#bbb",
+	borderRadius: 4,
+	color: "#888",
+	textAlign: "left",
+	value: L("IndivReviewComments"),
+	hintText: L("IndivReviewComments"),
+	hintTextColor: "#888",
+	top: 10,
+	height: "80",
+	left: 15,
+	right: 15
+},
+"#profilePic":{
+	top: 10,
+	height: 125,
+	width: 125,
+	image: "/images/picture.png"
+},
+".submitShareBtn": {
+	color: Alloy.Globals.lightTextColor,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	left: 20,
+	right: 20,
+	top: 20,
+	borderRadius: 2
+},
+
+".submitBtn": {
+	color: Alloy.Globals.lightTextColor,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	width: 230,
+	top: 20,
+	bottom: 20,
+	borderRadius: 2
+},

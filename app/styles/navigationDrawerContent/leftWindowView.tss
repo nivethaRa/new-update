@@ -1,0 +1,57 @@
+
+"#firstRow":{
+	top: 0,
+	height: "100",
+	//layout: 'vertical',
+	//backgroundColor : "#742CFA",
+	//selectedBackgroundColor: "#C6C5C5",
+	backgroundSelectedColor : "#C6C5C5",
+	zIndex : 999
+}
+
+"#personName":{
+	height: Titanium.UI.SIZE,
+	width: "75%",
+	ellipsize :true,
+	color: "#000",
+	left: "2%",
+	touchEnabled : false,
+	font: {
+		fontSize: "19sp",
+		fontFamily: 'OpenSans-Regular',
+		fontWeight : "normal"
+	}
+}
+
+"#personEmailID":{
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.SIZE,
+	color: "#000",//"#898888",
+	left: "2%",
+	touchEnabled : false,
+	font: {
+		fontSize: "16sp",
+		fontFamily: "OpenSans-Regular",
+		fontWeight : "normal"
+	}
+}
+
+"#leftMenuTableView":{
+	top: 0,
+	height: Titanium.UI.SIZE,
+	width: Titanium.UI.FILL,
+	backgroundColor: 'transparent',
+	separatorColor: 'transparent',
+	layout: 'vertical'
+}
+"#separator":{
+	bottom: 0,
+	height: 1,
+	width: Ti.UI.FILL,
+	left: 0,
+	backgroundColor: "#8E8E8E",
+	opacity: 0.2
+}
+
+
+

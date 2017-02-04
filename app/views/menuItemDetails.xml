@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id="hazeViewContainer" title="">
+		<!--<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>-->
+		<View id="popupContainer" onClick = "clickOutSide">
+			<View id="popupBox">
+				<View id="headerView">
+					<ImageView id="crossImage" onClick="closeWithStyle"/>
+				</View>
+				<ScrollView class="mainView vl" bottom="0">
+					<View class="heightSize cl top0" >
+						<View id="leftView" >
+							<Label id="name" class="H1BlkLbl top15"/>
+							<Label id="description" class="lightLbl top5 left10 heightSize"/>
+							<Label id="price" class="H2BlkLbl"/>
+						</View>
+						<View id="rightView" >
+							<ImageView id="itemPic" />
+						</View>
+					</View>
+					<View class="saperatorLight top5" />
+					<View id="dynamicView">
+						<View id="signleSelect"/>
+						<View id="multipleSelect"/>
+						<View id="extras"/>
+					</View>
+					<View id="dynamicSeparator" class="saperatorLight" top="0" visible="false"/>
+					<Label id="quantityLabel" text="L('quantity')"/>
+					<View height="Ti.UI.SIZE" top="10">
+						<ImageView id="plusIcon" onClick="increaseQuantity"/>
+						<Label id="quantity"/>
+						<ImageView id="minusIcon" onClick="decreaseQuantity"/>
+					</View>
+					<Button title="L('Save')" class="searchLocation top25 bottom10" onClick="saveUpdate"/>
+				</ScrollView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

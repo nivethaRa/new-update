@@ -1,0 +1,30 @@
+// "#orderListView":{
+// left: 0,
+// top: 0,
+// width: "100%",
+// backgroundColor: "#000",
+// height: "40"
+// },
+
+"#orderListTable":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 0
+}
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width : "100%",
+	top:0,
+	left:0,
+	bottom:0,
+	right:0
+}
+".reorderImg":{
+	top: 10,
+	right: 10,
+	width: 48,
+	height: 36,
+	
+}

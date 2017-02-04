@@ -1,0 +1,76 @@
+"#pcsLbl":{
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+}
+
+".lblcls":{
+	top: 5,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor
+},
+
+".lblclose":{
+	top: 5,
+	font: {
+		fontSize: 20,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.buttonColor2
+}
+
+"#mapV":{
+	height: 250,
+	width:Ti.UI.FILL,
+	top: 0,
+	backgroundColor:Alloy.Globals.mapsBackgroundColor
+}
+
+".parkLbl":{
+	left: 30,
+	// top: 5,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000"
+}
+
+".saveButton": {
+	top: 15,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	width: 140,
+	height: 45,
+	borderWidth: 3,
+	color: "#FFF",
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	borderRadius: 2
+}
+
+".chickinPicker":{
+	top: 5,
+	selectionIndicator: "true",
+	useSpinner: "true",
+	width: 180,
+	height: 110,
+	backgroundColor: Alloy.Globals.mapsBackgroundColor,
+	font: {
+		fontSize: 18,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	}
+}

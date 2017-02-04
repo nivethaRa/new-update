@@ -1,0 +1,187 @@
+".container": {
+	layout: "vertical",
+	height: "100%",
+	width : "100%",
+	top:0,
+	left:0,
+	bottom:0,
+	right:0
+}
+
+"#scroll":{
+	height: Ti.UI.SIZE,
+}
+
+".nxtBtn": {
+	title: L('search'),
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	width: 230,
+	top: 15,
+	bottom: 20,
+	borderRadius: 2
+},
+".mapMyFoodBtn": {
+	title: L('MapMyFood'),
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor3,
+	borderColor: Alloy.Globals.buttonColor,
+	height: 45,
+	width: 230,
+	top: 15,
+	bottom: 20,
+	borderRadius: 2
+},
+"#distanceSlider": {
+	height: Ti.UI.SIZE,
+	width: "60%",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+
+"#distanceLabel": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	width: "30%",
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+".tagsField": {
+	hintText: "ex. pizza, tacos...",
+	hintTextColor:Alloy.Globals.lightTextColor,
+	top: 10,
+	textAlign:'left',
+	left:15,
+	right:15,
+	width: Titanium.UI.FILL,
+	height: 40,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground
+}
+
+"#password": {
+	passwordMask: true
+}
+
+
+"#othersLogin": {
+	top: 20,
+	height: 50,
+	left: 30,
+	right: 30,
+	color: Alloy.Globals.normalTextColor
+}
+
+"#register": {
+	top: 30,
+	left: 30,
+	right: 30,
+	backgroundColor: Alloy.Globals.buttonColor4,
+	borderColor: Alloy.Globals.buttonColor4,
+	color: Alloy.Globals.normalTextColor
+},
+
+".createActLbl":{
+	textAlign: "center",
+	top: 15,
+	text: "The easy way to order street food",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Raleway'
+	},
+	color: "black"
+}
+
+
+".selectLbl":{
+	top: 10,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	color: Alloy.Globals.darkTextColor
+},
+
+".selectLbl1":{
+	left: 15,
+	top: 10,
+	font: {
+		fontSize: 15,
+		fontFamily: 'Raleway'
+	},
+	color: Alloy.Globals.darkTextColor
+},
+".actButton": {
+	color: "#FFF",
+	font: {
+		fontSize: 18,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	backgroundColor: Alloy.Globals.buttonColor,
+	borderColor: Alloy.Globals.buttonColor,
+	height: Alloy.Globals.defaultButtonHeight,
+	width: "60%",
+	top: 10,
+	borderRadius: Alloy.Globals.textFieldBorderRadius
+}, 
+".logo" : {
+	image: "/SFEZLOGO.png",
+},
+"#cbLblRight":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "30%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+},
+"#cbLbl0":{
+	top: 1,
+	font: {
+		fontSize: 14,
+		fontFamily: 'Lucida Grande',
+	},
+	color: "#000",
+	height: 20,
+	width: "30%"
+},
+"#postCode":{
+	hintText: "Search by Location",
+	hintTextColor:Alloy.Globals.lightTextColor,
+	top: 10,
+	textAlign:'left',
+	left:15,
+	right:15,
+	width: Titanium.UI.FILL,
+	height: 40,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Raleway',
+		fontWeight: "bold"
+	},
+	borderRadius: Alloy.Globals.textFieldBorderRadius,
+	backgroundColor: Alloy.Globals.fieldBackground 
+}
+

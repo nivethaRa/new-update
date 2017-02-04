@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="win" titleImage="images/appicon.png" title="" class="container">
+     <ScrollView id="vendorListView" layout="vertical" backgroundColor="transparent">
+		<View layout="vertical" width="100%" top="0" height="200" backgroundColor="white">
+			<ImageView id="prizeImage" image="/images/prize_gold.png"/>	
+			<Label id="titelLbl" text="GOLD" color="black"  font="Raleway" minimumFontSize="30" top="4" />
+		</View>
+		<View layout="vertical" height="300" >
+			<View id="leftView" top="20" height="80" layout="vertical" >
+				<Label id="titelLbl" left="20" text="Points Needed:" color="black" font="Raleway" minimumFontSize="12" />
+				<TextField id="points" hintText="10" hintTextColor="gray" />
+			</View>
+			<View id="leftView" top="10" height="100" layout="vertical" >
+				<Label id="titelLbl" left="20" text="Description:" color="black" font="Raleway" minimumFontSize="12" />
+				<TextField id="desc" hintText="1 Free side" hintTextColor="gray"/>
+			</View>
+			<Button id="save" title="L('save')" top="30" width="170" height="30" />
+		</View>
+	</ScrollView>
+  </Window>
+</Alloy>

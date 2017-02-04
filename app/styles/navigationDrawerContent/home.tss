@@ -1,0 +1,253 @@
+"#menuView": {}
+
+"MenuItem[platform=android]": {
+	showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+},
+"#item1[platform=android]": {
+	icon: Ti.Android.R.drawable.ic_menu_preferences
+},
+"#item2[platform=android]": {
+	icon: Ti.Android.R.drawable.ic_menu_search
+},
+
+"#mainView": {
+	backgroundColor: Alloy.Globals.mapsBackgroundColor
+}
+
+"#mainMenuIcon": {
+	image: "/images/menu-circular-button.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#cartMenuIcon": {
+	image: "/images/checkoutNew.png",
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+
+"#checkinIcon": {
+	image: "/images/checkin.png"
+}
+
+"#checkoutIcon": {
+	image: "/images/checkoutNew.png",
+	right: Alloy.Globals.navigatorIconPadding,
+	height: 33,
+	width: 38
+}
+
+"#rankedIcon": {
+	image: "/images/rankings.png"
+}
+
+"#pricingPicker": {
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+"#distanceSlider": {
+	height: Ti.UI.SIZE,
+	width: "60%",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#distanceLabel": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height: Ti.UI.SIZE,
+	width: "30%",
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+"#distanceComponents": {
+	height: Ti.UI.SIZE
+}
+
+"#checkinButton": {
+	visible: "false",
+	height: 0
+}
+
+"#myProfile": {
+	visible: "false",
+	height: 0
+}
+
+"#requestRoleFoodTruckButton": {
+	visible: "false",
+	height: 0
+}
+
+"#requestJujoButton": {
+	visible: "false",
+	height: 0
+}
+
+"#scanQrCode": {
+	visible: "false",
+	height: 0
+}
+
+"#listIcon": {
+	image: "/images/list.png"
+}
+"#listIconView": {
+	right: Alloy.Globals.navigatorIconPadding
+}
+"#searchIconView": {
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#checkinIconView": {
+	right: "30dp"
+}
+
+"#bottomWrapper": {
+	layout: "horizontal",
+	width: Ti.UI.SIZE
+}
+
+"#searchScroller": {
+	layout: "vertical",
+	backgroundColor: Alloy.Globals.windowBackgroundColor,
+	bottom: Alloy.Globals.bottomNavigatorHeight,
+	top: 0
+}
+
+"#menuScroller": {
+	layout: "vertical"
+}
+
+"#listScroller": {
+	top: Alloy.Globals.navigatorHeight
+}
+
+"#rankedListScroller": {
+	top: Alloy.Globals.navigatorHeight
+}
+
+"#menuMenuIcon": {
+	image: "/images/exit.png",
+	right: Alloy.Globals.navigatorIconPadding
+}
+
+"#backListViewIcon": {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+"#backRankedListViewIcon": {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+"#searchIcon": {
+	image: "/images/active-search.png"
+}
+
+"#profileImage": {
+	borderRadius: 7,
+	defaultImage: "/images/user.png",
+	top: 15,
+	height: Alloy.Globals.profileImageHeight,
+	width: Alloy.Globals.profileImageHeight
+}
+
+"#username": {
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: Alloy.Globals.lightTextColor,
+	bottom: 15,
+	wordWrap: true,
+	font: {
+		fontSize: 14,
+		fontWeight: 'bold'
+	}
+}
+
+"#searchView": {
+	layout: "absolute",
+	width: Titanium.UI.FILL,
+	top: Alloy.Globals.navigatorHeight,
+	bottom: Alloy.Globals.bottomNavigatorHeight,
+	opacity: 0.0,
+	zIndex: 0
+}
+
+"#mainBaseView": {
+	layout: "vertical",
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}
+
+"#baseView": {
+	layout: "absolute",
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 0
+}
+
+"#logoutButton": {
+	backgroundColor: Alloy.Globals.buttonColor2,
+	borderColor: Alloy.Globals.buttonColor2
+}
+
+".infoContainer": {
+	color: Alloy.Globals.lightTextColor,
+	height: 100,
+	width: Titanium.UI.FILL,
+	bottom: 0,
+	left: 0,
+	right: 0,
+	backgroundColor: Alloy.Globals.windowBackgroundColor,
+	zIndex: 2
+}
+
+"#listTable": {
+	backgroundColor: Alloy.Globals.windowBackgroundColor2
+}
+
+"#rankedListTable": {
+	backgroundColor: Alloy.Globals.windowBackgroundColor2
+}
+
+".imageFT": {
+	left: Alloy.Globals.navigatorIconPadding,
+	height: 48,
+	width: 48,
+	bottom: 10,
+	top: 10,
+	image: "/images/foodtruck.png"
+}
+
+".labelUserName": {
+	left: 70,
+	top: 5,
+	color: Alloy.Globals.lightTextColor,
+	wordWrap: true,
+	font: {
+		fontSize: 14	,
+		fontWeight: 'bold'
+	}
+}
+
+".labelDetails": {
+	left: 70,
+	top: 25,
+	color: Alloy.Globals.lightTextColor,
+	wordWrap: true,
+	font: {
+		fontSize: 12	,
+		fontWeight: 'bold'
+	}
+}
+
+"#tagWidget":{
+	height: Ti.UI.SIZE
+}
+
+"#tagsContainer":{
+	height: Ti.UI.SIZE,
+	top: 20,
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding
+}

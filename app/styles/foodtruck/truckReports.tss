@@ -1,0 +1,33 @@
+".Tabs":{
+	height: "100%",
+	width: "24%",
+	left: 2
+}
+
+".TabsLbl":{
+	touchEnabled: false,
+	top: 15,
+	textAlign: "center",
+	font: {
+		fontSize: 15,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	width:"auto",
+	color: Alloy.Globals.normalTextColor
+}
+
+"#lineWeb":{
+	top:0,
+	height:320,
+	width:Ti.UI.FILL,
+	url:"column3D.html"
+}
+
+"#pieWeb":{
+	top:0,
+	height:320,
+	width:Ti.UI.FILL,
+	url:"pieSimple.html"
+}
+

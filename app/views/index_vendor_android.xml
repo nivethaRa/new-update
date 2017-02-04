@@ -1,0 +1,107 @@
+<Alloy>
+  <TabGroup module="tabGroup" id="tabVendor">
+    <Tab module="tabGroup" id="tabv_a" title="Check In" icon="images/tabicons/checkin.png" activeIcon="images/tabicons/checkin_fill.png">
+      <Window module="tabs" id="tab_checkIn" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require  id="tab_a_view" src="/foodtruck/checkins/checkin_first"></Require>
+      </Window> 
+    </Tab> 
+    <Tab module="tabGroup" id="tabv_b" title="Specials" icon="images/tabicons/special_menu.png" activeIcon="images/tabicons/special_menu_fill.png">
+      <Window module="tabGroup" id="tab_specialmenu" title="" titleImage="images/appicon.png">
+        <LeftNavButton > 
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/foodtruck/specials" ></Require>
+      </Window>
+    </Tab> 
+    <Tab module="tabGroup" id="tabv_c" title="Loyalty" icon="images/tabicons/loyality.png" activeIcon="images/tabicons/loyality_fill.png">
+      <Window module="tabGroup" id="tab_vloyalty" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/foodtruck/vendor_loyalty" ></Require>
+      </Window>
+    </Tab> 
+    <Tab module="tabGroup" id="tabv_d" title="Reports" icon="images/tabicons/reports.png" activeIcon="images/tabicons/reports_fill.png">
+      <Window module="tabGroup" id="tab_reports" title="Reports" >
+        <LeftNavButton > 
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/foodtruck/truckReports" ></Require>
+      </Window>
+    </Tab>
+    <Tab module="tabGroup" id="tabv_e" title="Order Mgt." icon="images/tabicons/order.png" activeIcon="images/tabicons/order_fill.png">
+      <Window module="tabGroup" id="tab_ordersmgt" title="" titleImage="images/appicon.png">
+        <LeftNavButton >
+          <Button onClick="menuNavButtonHandler" class="menuButton" style="PLAIN" borderWidth="0"></Button>
+        </LeftNavButton>
+        <RightNavButton >
+          <Button onClick="checkOutNavButtonHandler" class="checkoutbutton" style="PLAIN" borderWidth="0"></Button>
+        </RightNavButton>
+        <Require id="tab_b_view" src="/vendor_orders" ></Require>
+      </Window>
+    </Tab>
+  </TabGroup> 
+  
+  <Window id="mainWindow" class="mainWindow">
+  	<View id="sidemenu" class="sidemenu">
+  		<View height="80" layout="vertical" ><Label class ="menuHeader" text="Main Menu" /></View> 
+  		<View class="saperatorLight"/>
+  		<View id="options" top="10" layout="vertical" height="180">
+  			<View height="50" layout="horizontal">
+  				<ImageView left="20" image="/images/tabicons/cart.png"></ImageView>
+  				<Label  class ="menuOption" text="L('AlokPatil')" />
+  			</View>
+  			<View class="container" >   
+  				<Label id="Profile"  class ="menuOption" text="L('profile')" onClick="clickedOption"/>
+  				<Label id="DailySpecial" class ="menuOption" text="L('DailySpecials')" onClick="clickedOption"/>
+  				<Label id="Events" class ="menuOption" text="L('SettingsPushEvents')" onClick="clickedOption"/>
+  				<Label id="MyLoyalty" class ="menuOption" text="L('MyLoyaltyMyLoyalty')" onClick="clickedOption"/>
+  				<Label id="SearchPref" class ="menuOption" text="L('SearchPreferences')" onClick="clickedOption"/>
+  			</View>  
+  		</View>
+  		<View id="loginOption" class="loginHeader"> 
+  			<Label id="Vendor"  top="5" class ="menuOption" text="L('GotoVendor')" onClick="clickedOption"/>
+  			<Label id="SignIn"  top="5" class ="menuOption" text="L('SignIn')" onClick="clickedOption"/>
+  			<Label id="CAccount"  class ="menuOption" text="L('CreateAccount')" onClick="clickedOption"/>
+  		</View>
+  	</View> 
+  	
+  	<View id="sidemenuVendor" class="sidemenu">
+  		<View height="80" layout="horizontal" >
+  			<!-- <ImageView left="20" image="/images/tabicons/cart.png"></ImageView> -->
+  			<Label class ="menuHeader" text="L('PacoTacaos')" /></View> 
+  		<View class="saperatorLight"/>
+  		<View id="options" top="10" layout="vertical" height="180">
+  			<View class="container" >   
+  				<Label id="CheckIn"  class ="menuOption" text="L('checkin')" onClick="clickedOption"/>
+  				<Label id="DailyVSpecial" class ="menuOption" text="L('DailySpecials')" onClick="clickedOption"/>
+  				<Label id="MenuAvailable" class ="menuOption" text="L('MenuAvailability')" onClick="clickedOption"/>
+  				<Label id="Report" class ="menuOption" text="L('Reports')" onClick="clickedOption"/>
+  				<Label id="Review" class ="menuOption" text="L('Reviews')" onClick="clickedOption"/>
+  				<Label id="Config" class ="menuOption" text="L('Configuration')" onClick="clickedOption"/>
+  			</View>  
+  		</View>
+  		<View id="loginOption" class="loginHeader top5"> 
+  			<Label id="Consumer"  top="5" class ="menuOption" text="L('GotoConsumer')" onClick="clickedOption"/>
+  			<Label id="SignIn"  top="5" class ="menuOption" text="L('SignIn')" onClick="clickedOption"/>
+  			<Label id="CAccount"  class ="menuOption" text="L('CreateAccount')" onClick="clickedOption"/>
+  		</View>
+  	</View>
+  	
+  </Window>  
+</Alloy>

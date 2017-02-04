@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="mapmyfoodwin" class="mainView" >
+		<ScrollView id="scroll">
+			<View class="vl">
+				<ImageView class="logoPic"/>
+				<Label text="L('Theeasywaytoorderstreetfood')" color="#000" />
+				<Button title="L('MapMyFood')" class="loginButton" onClick="openVendorList"/>
+				<Label class="top15" text="L('or')" color="#000" />
+				<TextField  class="postcodeTF" hintText="L('MapMyFoodPostalCodeComment')" id="postCode"/>
+				<Button title="L('MapMyFoodSearchByLocation')" class="searchLocation top25" onClick="searchByLocationClicked"/>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

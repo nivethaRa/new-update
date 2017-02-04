@@ -1,0 +1,12 @@
+<Alloy>
+	<Window fullscreen="false" class="container">
+		<Require type="widget" src="com.alcoapps.drawermenu" id="drawermenu"/>
+		<Menu>
+			<MenuItem id="item2" title="L('Search')" visible="false"/>
+			<MenuItem id="item1" title="cart" icon="/images/consumerordering/cart.png" onClick="openCart" />
+		</Menu>
+		<ScrollableView id="mainScrollableView">
+			<View id="baseView" ></View>
+		</ScrollableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,9 @@
+"#starrating": {
+	layout: 'horizontal',
+	width: Ti.UI.SIZE,
+	backgroundColor: 'transparent'
+}
+
+".starLabel" : {
+	left: 10
+}

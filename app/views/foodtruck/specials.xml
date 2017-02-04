@@ -1,0 +1,32 @@
+<Alloy>
+	<View id="specialsView" top="0" bottom="0" layout="vertical">
+		<View id="topSView" top="0" layout="vertical">
+			<View class="top0 cl heightSize">
+				<Label text="Daily Specials" id="spcialLbl"/>
+				<Button title="2 tacos chips soda $7.99" class="tcsBtn" />
+			</View>
+			<Label text="Frequency" id="spcialLbl"/>
+			<View class="hl top5 heightSize">
+				<ImageView id ="ck1" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="Su"/>
+				<ImageView id ="ck2" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="M"/>
+				<ImageView id ="ck3" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="Tu"/>
+				<ImageView id ="ck4" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="W"/>
+				<ImageView id ="ck5" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="Th"/>
+				<ImageView id ="ck6" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="F"/>
+				<ImageView id ="ck7" onClick="UpdateCheckBox" idCheck="false" class="checkBox top5 left10" />
+				<Label  class ="cbLbl" text="Sa"/>
+			</View>
+			<View class="hl top5 heightSize">
+				<TextField  class="codeTF" hintText= "ex 2 cheeseburger 2 fries $8"/>
+				<Button title="Add New" class="addBtn" />
+			</View>
+		</View>
+		<TableView id="specialsTable" class="tableSapColor" />
+	</View>
+</Alloy>

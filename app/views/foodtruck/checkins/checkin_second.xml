@@ -1,0 +1,17 @@
+<Alloy>
+	<View class="mainView">
+		<ScrollView>
+			<View class="vl" bottom="20">
+				<View class="height20 btnBg">
+					<Label id="currentTime" text="Time: 11:02 AM" />
+				</View>
+				<View id="mapV"></View>
+				<View class="saperatorLight top5" />
+				<Label text="L('CheckInClosingTime')" class="lblclose"/>
+				<Picker id="picker"/>
+				<Button title="SAVE" class="saveButton" onClick="saveClicked" />
+				<Label id="foodParkName" class="top5" text="10 & Alder Partland 98201"/>
+			</View>
+		</ScrollView>
+	</View>
+</Alloy>

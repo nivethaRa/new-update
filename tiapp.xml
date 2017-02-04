@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <sdk-version>5.2.2.GA</sdk-version>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+    </deployment-targets>
+    <id>com.streetfoodez.sfez</id>
+    <name>SFEZ</name>
+    <version>1.0</version>
+    <publisher>not specified</publisher>
+    <url>unspecified</url>
+    <description>not specified</description>
+    <copyright>not specified</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <!-- <guid>0513031a-00ba-4de1-9999-6fc024c2e047</guid><guid>245649e5-aa56-47ba-9666-67a6727571fa</guid>-->
+    <guid>646ea734-9590-4ce5-9eee-efaacfd83a17</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleTranslucentBlack</string>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>Determine Current Location</string>
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLName</key>
+                        <!-- Application ID same as the id value in the tiapp.xml file -->
+                        <string>com.streetfoodez</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <!-- Prefix the Facebook App ID with 'fb' -->
+                            <string>fb1720870321493029</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>FacebookAppID</key>
+                <!-- Facebook App ID -->
+                <string>1720870321493029</string>
+                <key>FacebookDisplayName</key>
+                <!-- Facebook App Name from developer.facebook.com -->
+                <string>SFEZ</string>
+                <key>LSApplicationQueriesSchemes</key>
+                <array>
+                    <string>fbapi</string>
+                    <string>fb-messenger-api</string>
+                    <string>fbauth2</string>
+                    <string>fbshareextension</string>
+                </array>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@style/Theme.AppCompat.Light">
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBRZjzPhIRSBhElfiNc7TWi4haH4CL29qU"/>
+                <activity android:label="@string/app_name"
+                    android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+                <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+                <activity
+                    android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+                    android:label="@string/app_name"
+                    android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+            </application>
+            <uses-permission android:name="android.permission.INTERNET"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <property name="GCM_sender_id" type="string">7518678364</property>
+    <modules>
+        <module platform="android" version="1.4.1">com.tripvi.drawerlayout</module>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+        <module platform="iphone">ti.barcode</module>
+        <module platform="android">ti.barcode</module>
+        <module platform="android">ti.cloudpush</module>
+        <module platform="android">com.oodles.androidcurrentlocation</module>
+        <module platform="android">net.iamyellow.gcmjs</module>
+    </modules>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+        <plugin>hyperloop</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">56c7428156e164751fe0be3d</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">pgPF1zS16ksSsqWhqWVAHEp7BV7cEjbe</property>
+    <property name="acs-oauth-key-development" type="string">Xn3MmyJl3L0CFFjE4IOBU6oZQHwIFonR</property>
+    <property name="acs-api-key-development" type="string">VEbNNjBUHuNdHQa5I8m1m1BqOdYwubxM</property>
+    <!-- <property name="acs-username-development" type="string">appc_app_user_dev</property><property name="acs-password-development" type="string">tPwncIZ6Si81j2OOdj</property> -->
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">jL423LwynMosDwBhCnobZ9tBAA0Je39R</property>
+    <property name="acs-oauth-key-production" type="string">AO2jM02T1DUFxZFYbGndAZDUJu2ELkHZ</property>
+    <property name="acs-api-key-production" type="string">vW479oAiMbsnJ3HbbLoDyzqTsRx63yft</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">XGSxMwctcL27q5UKVz</property>
+    <property name="appc-org-id" type="string">100155843</property>
+    <property name="appc-creator-user-id" type="string">928fde89-f499-47e4-be1c-d3be335e74f8</property>
+    <property name="acs-push-type-development" type="string">gcm</property>
+    <property name="acs-push-type-production" type="string">gcm</property>
+    <property name="acs-push-type" type="string">gcm</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">eBL3Yw2P6505BRL9aD</property>
+</ti:app>

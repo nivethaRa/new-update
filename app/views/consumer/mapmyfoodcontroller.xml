@@ -1,0 +1,23 @@
+<Alloy>
+	<Window  titleImage="images/appicon.png" id="win" title="">
+	<RightNavButton >
+         <Button onClick="checkOutNavButtonHandler" backgroundImage="images/checkout.png"></Button>
+    </RightNavButton>
+    <ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWin"></ActionBar>
+     <View id="mapfoodListView" class="container">
+		<View id="scrlView" top="0">
+			
+		</View> 
+		<View id="mapListView" top="0">
+			<Label id="mapH" class="maplistH" text="L('ResultsMapMap')" onClick="openMap"/>
+			<Label id="listH" class="listH" text="L('ResultsMapList')" onClick="openList"/>
+			<View id="baseLine" />
+		</View>
+		<View class="containernew">
+			<View id="mapArea" class="mapArea"></View>
+			<TableView id="foodListTable" class="tableSapColor" />
+		</View>
+	</View>  
+  </Window>
+	
+</Alloy>

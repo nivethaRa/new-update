@@ -1,0 +1,7 @@
+<Alloy>
+	<View layout="vertical" width="100%" height="Ti.UI.SIZE">
+		<TextField id="tagSearch"/>
+		<TableView id="tagTable" />
+		<View id="tagArea" layout="horizontal"></View>
+	</View>
+</Alloy>

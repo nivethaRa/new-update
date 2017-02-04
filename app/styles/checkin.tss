@@ -1,0 +1,64 @@
+"#backMenuIcon" : {
+	image: "/images/back.png",
+	left: Alloy.Globals.navigatorIconPadding
+}
+
+".scroll" : {
+	layout: "vertical",
+	top: Alloy.Globals.navigatorHeight
+}
+
+"#mapContainer" : {
+	top: 0,
+	height: "40%"
+}
+
+".buttonLabel": {
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	top: 5,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	height: 45,
+  borderWidth: 3,
+  backgroundColor: Alloy.Globals.windowBackgroundColor2,
+  borderColor: Alloy.Globals.windowBackgroundColor2,
+  borderRadius: 7
+}
+
+"#description": {
+	height: 60,
+	maxLength: 100
+}
+
+'.defaultLabel': {
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+'.defaultField': {
+	top: 5,
+	left: Alloy.Globals.navigatorIconPadding,
+	right: Alloy.Globals.navigatorIconPadding,
+	height: 40,
+	borderRadius: 9,
+	backgroundColor: Alloy.Globals.fieldBackground,
+	color: Alloy.Globals.normalInputTextColor
+}
+
+".buttonSubmit": {
+  top: 15,
+  left: Alloy.Globals.navigatorIconPadding,
+  right: Alloy.Globals.navigatorIconPadding,
+  height: 45,
+  borderWidth: 3,
+  backgroundColor: Alloy.Globals.buttonColor,
+  borderColor: Alloy.Globals.buttonColor,
+  borderRadius: 7
+}
+
+"#scrollable" : {
+	scrollingEnabled: false,
+	top: Alloy.Globals.navigatorHeight
+}

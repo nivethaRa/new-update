@@ -1,0 +1,10 @@
+".postcodeTF":{
+	hintText: "Postal Code",
+	hintTextColor: "lightgray",
+	font: {
+		fontSize: 14,
+		fontFamily: 'Raleway',
+		fontWeight:"Medium"
+	},
+	color: "#000",
+}

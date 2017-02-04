@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" layout="vertical">
+			<View class="navigator" id="backMenuIconView">
+				<ImageView id="backMenuIcon" class="navigatorIcon" />
+				<Label text="L('sfez')" class="windowTitle" />
+			</View>
+			<View id="qrCodeScanner" class="mainView">
+				<ImageView class="logoPic" />
+				<ActivityIndicator id="activityIndicator" message="L('validating_jujo')"/>
+			</View>
+	</Window>
+</Alloy>

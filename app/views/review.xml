@@ -1,0 +1,29 @@
+<Alloy>
+	<Window class="container">
+			<View id="backMenuIconView" class="navigator">
+				<Label text="L('sfez')" class="windowTitle" />
+				<ImageView id="backMenuIcon" class="navigatorIcon backMenuIcon" />
+			</View>
+
+			<ScrollView id="reviewView" class="mainView">
+
+				<ImageView class="logoPic" />
+				<View class="smallDivisor"></View>
+
+				<TextField id="hiddenDisableAutofocus" editable="false" height="0" width="0" />
+				<View id="questions"> </View>
+				<!-- <View id="question1" class="questionContainer tableRow" > </View>
+				<View id="question2" class="questionContainer tableRow" > </View>
+				<View id="question3" class="questionContainer tableRow" > </View>
+				<View id="question4" class="questionContainer tableRow" > </View>
+				<View id="question5" class="questionContainer tableRow" > </View> -->
+
+				<TextArea id="reviewText" class="defaultField textarea"/>
+			</ScrollView>
+
+			<View class="bottomNavigator">
+				<View class="bottomNavigatorDivisor"></View>
+				<Button id="submitReviewButton" title="L('submit')" class="bottomButton" />
+			</View>
+	</Window>
+</Alloy>

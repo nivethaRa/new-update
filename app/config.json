@@ -1,0 +1,38 @@
+{
+  "global": {
+    "foodtruck_request_email": "gustavosizilio@gmail.com",
+    "redirect_share_url": "http://www.streetfoodez.com/",
+    "online_logo_url": "http://i.imgur.com/LtzVFYp.png"
+  },
+  "env:development": {
+    "foodtruck_request_email": "gustavosizilio@gmail.com",
+    "redirect_share_url": "http://www.streetfoodez.com/",
+    "online_logo_url": "http://i.imgur.com/LtzVFYp.png"
+  },
+  "services":{
+  "DOMAIN":"http://45.55.180.220:3000/",
+  "users_review":"users",
+  "reviews":"reviews",
+  "categories":"categories",
+  "menuItems":"menuItems",
+  "optionItems":"optionItems",
+  "mobileVendors":"mobileVendors",
+  "dailySpecials":"dailySpecials",
+  "foodParks":"foodParks",
+  "companies":"companies"
+  },
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "os:windows": {},
+  "dependencies": {
+    "starrating": "1.0",
+    "tagscomponent": "1.0",
+    "com.alcoapps.drawermenu": "1.0",
+    "com.jasonkneen.slidemenu":"1.0",
+    "nl.fokkezb.loading": "*"
+  }
+}

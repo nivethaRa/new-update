@@ -1,0 +1,81 @@
+"#baseView":{
+	height: Ti.UI.SIZE,
+	top: 5,
+	left: 0,
+	right: 0,
+	//orderId : i,
+	backgroundColor: Alloy.Globals.mapsBackgroundColor
+}
+"#editImg":{
+	top: 8,
+	left: 10,
+	height: 20,
+	width: 20,
+	image: "/images/note.png"
+}
+"#titleAndQuantityLabel":{
+	left: 40,
+	right: 100,
+	top: 5,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: "horizontal"
+}
+".label":{
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000"
+}
+"#desclbl":{
+	left: 40,
+	right: 100,
+	top: 30,
+	font: {
+		fontSize: 11,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000",
+	opacity: 0.6,
+	text: "Hot Shell, Cheese, Sour Cream"
+}
+"#pricelbl":{
+	right: 40,
+	top: 5,
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+}
+"#cancelImg":{
+	top: 8,
+	right: 10,
+	height: 20,
+	width: 20,
+	image: "/images/consumerordering/delete.png"
+}
+"#beefLbl":{
+	left: 40,
+	right: 100,
+	top: 50,
+	text: "L(ExtraBeef)",
+	font: {
+		fontSize: 11,
+		fontFamily: 'Lucida Grande',
+		fontWeight: "bold"
+	},
+	color: "#000"
+}
+"#beefPricelbl":{
+	right: 40,
+	top: 43,
+	text: "$2",
+	font: {
+		fontSize: 16,
+		fontFamily: 'Lucida Grande'
+	},
+	color: "#000"
+}
